@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Board Game Shelf</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <h1>My Board Game Shelf</h1>
+            <p class="sub">A shareable list of my games, pulled from BoardGameGeek.</p>
+
+            <div class="controls">
+                <input id="search" type="search" placeholder="Search games…" autocomplete="off" />
+                <select id="playerFilter">
+                    <option value="">Any player count</option>
+                    <option value="1">Works with 1</option>
+                    <option value="2">Works with 2</option>
+                    <option value="3">Works with 3</option>
+                    <option value="4">Works with 4</option>
+                    <option value="5">Works with 5</option>
+                    <option value="6">Works with 6+</option>
+                </select>
+                <select id="sort">
+                    <option value="name">Sort: Name</option>
+                    <option value="rating">Sort: Rating</option>
+                    <option value="players">Sort: Max Players</option>
+                    <option value="year">Sort: Year</option>
+                </select>
+            </div>
+
+            <div class="meta" id="meta"></div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div id="grid" class="grid"></div>
+        <div id="empty" class="empty hidden">No games match your filters.</div>
+    </main>
+
+    <footer class="footer">
+        <span>
+            Data source: <a href="https://boardgamegeek.com/" target="_blank" rel="noreferrer">BoardGameGeek</a>
+        </span>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
