@@ -70,23 +70,32 @@ async function sleep(ms) {
 // BGG sometimes returns a "please retry" behavior for hot caches.
 // We'll retry a few times if the response doesn't contain items.
 async function fetchBGGThingXML(ids) {
+    const token = process.env.BGG_TOKEN;
+    if (!token) {
+        throw new Error("Missing BGG_TOKEN env var. Set it locally or in GitHub Secrets.");
+    }
+
     const url = `https://boardgamegeek.com/xmlapi2/thing?id=${ids.join(",")}&stats=1`;
-    for (let attempt = 1; attempt <= 5; attempt++) {
+
+    for (let attempt = 1; attempt <= 8; attempt++) {
         const res = await fetch(url, {
             headers: {
                 "User-Agent": "boardgame-shelf-github-pages/1.0 (personal project)",
+                "Accept": "application/xml,text/xml;q=0.9,*/*;q=0.8",
+                "Authorization": `Bearer ${token}`,
             },
         });
+
         const text = await res.text();
+        if (text.includes("<items")) return text;
 
-        // crude check: presence of "<item"
-        if (text.includes("<item")) return text;
-
-        // backoff
-        await sleep(800 * attempt);
+        console.warn(`BGG unexpected response (attempt ${attempt}/8) status=${res.status}`);
+        await sleep(1200 * attempt);
     }
-    throw new Error("BGG API did not return items after retries.");
+
+    throw new Error("BGG API did not return usable XML after retries.");
 }
+
 
 // Minimal XML extraction using string/regex (good enough for BGG’s predictable XML).
 function getAttr(tagText, attr) {
@@ -218,6 +227,13 @@ async function main() {
         const chunk = ids.slice(i, i + chunkSize);
         const xml = await fetchBGGThingXML(chunk);
         const items = extractItems(xml);
+
+        if (!items.length) {
+            const totalMatch = xml.match(/<items\b[^>]*total="(\d+)"/);
+            const total = totalMatch ? Number(totalMatch[1]) : null;
+            console.warn(`BGG returned 0 <item> blocks for ids=[${chunk.join(",")}], total=${total}`);
+        }
+
         for (const itemXml of items) {
             const parsed = parseBGGItem(itemXml);
             if (parsed.bgg_id) parsedById.set(parsed.bgg_id, parsed);

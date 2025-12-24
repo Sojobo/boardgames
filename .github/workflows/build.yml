@@ -23,6 +23,8 @@ jobs:
           node-version: 20
 
       - name: Build games.json
+        env:
+          BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
         run: node scripts/build_games_json.js
 
       - name: Commit updated games.json (if changed)
