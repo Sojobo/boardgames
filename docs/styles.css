@@ -58,9 +58,26 @@ h1 {
 
 .controls {
     display: grid;
-    grid-template-columns: 1fr 180px 180px;
+    grid-template-columns: 1fr 180px 180px 140px;
     gap: 10px;
     margin: 14px 0 6px;
+}
+
+.clear-btn {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 12px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.clear-btn:hover {
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.clear-btn:active {
+    transform: translateY(1px);
 }
 
 input,
@@ -214,12 +231,46 @@ select:focus {
     border: 1px solid var(--border);
     padding: 5px 8px;
     border-radius: 999px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tag:hover {
+    background: rgba(255, 255, 255, 0.07);
+}
+
+.meta .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    padding: 6px 10px;
+    border-radius: 999px;
+}
+
+.meta .chip button {
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    color: rgba(234, 242, 255, 0.8);
+    font-size: 14px;
+}
+
+.footer-row {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed rgba(255, 255, 255, 0.12);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .bgg-link {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     text-decoration: none;
     font-size: 12px;
     color: rgba(234, 242, 255, 0.85);
@@ -231,6 +282,12 @@ select:focus {
 
 .bgg-link:hover {
     background: rgba(255, 255, 255, 0.10);
+}
+
+.bgg-link svg {
+    width: 14px;
+    height: 14px;
+    opacity: 0.9;
 }
 
 .note {

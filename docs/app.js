@@ -1,3 +1,5 @@
+let activeCategory = null;
+
 async function loadData() {
     const res = await fetch("./games.json", { cache: "no-store" });
     if (!res.ok) throw new Error("games.json not found yet. Run the build action once.");
@@ -5,13 +7,13 @@ async function loadData() {
 }
 
 function fmtPlayers(p) {
-    if (!p?.min || !p?.max) return "Players: ?";
-    return p.min === p.max ? `Players: ${p.min}` : `Players: ${p.min}–${p.max}`;
+    if (!p?.min || !p?.max) return "👥 ?";
+    return p.min === p.max ? `👥 ${p.min}` : `👥 ${p.min}–${p.max}`;
 }
 
 function fmtTime(t) {
-    if (!t?.min || !t?.max) return "Time: ?";
-    return t.min === t.max ? `Time: ${t.min} min` : `Time: ${t.min}–${t.max} min`;
+    if (!t?.min || !t?.max) return "⏱ ?";
+    return t.min === t.max ? `⏱ ${t.min}m` : `⏱ ${t.min}–${t.max}m`;
 }
 
 function fmtRating(r) {
@@ -51,10 +53,24 @@ function render(games, meta) {
     const grid = document.getElementById("grid");
     const empty = document.getElementById("empty");
     const metaEl = document.getElementById("meta");
+    const activeTagEl = document.getElementById("activeTag");
 
     grid.innerHTML = "";
 
     metaEl.textContent = meta;
+
+    activeTagEl.innerHTML = activeCategory
+        ? `<span class="chip">Filtered by category: <strong>${activeCategory}</strong> <button id="clearTag" aria-label="Clear filter">×</button></span>`
+        : "";
+
+    const clearBtn = document.getElementById("clearTag");
+    if (clearBtn) {
+        clearBtn.addEventListener("click", () => {
+            activeCategory = null;
+            document.getElementById("search").value = "";
+            window.__rerender?.();
+        });
+    }
 
     if (!games.length) {
         empty.classList.remove("hidden");
@@ -82,16 +98,28 @@ function render(games, meta) {
         <div class="kv">
           <span class="pill">${fmtPlayers(g.players)}</span>
           <span class="pill">${fmtTime(g.playtime)}</span>
-          ${g.yearpublished ? `<span class="pill">Year: ${g.yearpublished}</span>` : ""}
+          ${g.yearpublished ? `<span class="pill">📅 ${g.yearpublished}</span>` : ""}
         </div>
 
         <div class="tags">
-          ${topTags.map((t) => `<span class="tag">${t}</span>`).join("")}
+          ${topTags.map((t) => `<span class="tag" data-category="${t.replaceAll('"', "&quot;")}">${t}</span>`).join("")}
         </div>
 
         ${g.note ? `<div class="note">${g.note}</div>` : ""}
 
-        ${g.bgg_url ? `<a class="bgg-link" href="${g.bgg_url}" target="_blank" rel="noreferrer">BGG</a>` : ""}
+        ${g.bgg_url ? `
+            <div class="footer-row">
+                <a class="bgg-link" href="${g.bgg_url}" target="_blank" rel="noreferrer">
+                BGG
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M14 4h6v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10 14L20 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20 14v6H4V4h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                </a>
+            </div>
+        ` : ""}
+
       </div>
     `;
 
@@ -126,6 +154,10 @@ function applyFilters(allGames) {
         filtered = filtered.filter((g) => worksWithPlayers(g, n));
     }
 
+    if (activeCategory) {
+        filtered = filtered.filter((g) => (g.categories || []).includes(activeCategory));
+    }
+
     filtered = sortGames(filtered, sortMode);
     return filtered;
 }
@@ -139,6 +171,30 @@ async function main() {
         const filtered = applyFilters(allGames);
         render(filtered, `Showing ${filtered.length}/${allGames.length} games • updated ${generated}`);
     };
+
+    window.__rerender = rerender;
+
+    document.getElementById("grid").addEventListener("click", (e) => {
+        const el = e.target.closest(".tag[data-category]");
+        if (!el) return;
+
+        const cat = el.getAttribute("data-category");
+        activeCategory = (activeCategory === cat) ? null : cat;
+
+        // optional: also set search to category for clarity
+        document.getElementById("search").value = activeCategory ? cat : "";
+        rerender();
+    });
+
+    document.getElementById("clearFilters").addEventListener("click", () => {
+        activeCategory = null;
+
+        document.getElementById("search").value = "";
+        document.getElementById("playerFilter").value = "";
+        document.getElementById("sort").value = "name";
+
+        rerender();
+    });
 
     document.getElementById("search").addEventListener("input", rerender);
     document.getElementById("playerFilter").addEventListener("change", rerender);
