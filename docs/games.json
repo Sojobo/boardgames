@@ -1,0 +1,148 @@
+{
+  "generated_at": "2025-12-24T02:13:20.224Z",
+  "source": "BoardGameGeek XMLAPI2 /thing?stats=1",
+  "games": [
+    {
+      "bgg_id": 68448,
+      "name": "7 Wonders",
+      "yearpublished": 2010,
+      "players": {
+        "min": 2,
+        "max": 7
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "thumbnail": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__small/img/BUOso8b0M1aUOkU80FWlhE8uuxc=/fit-in/200x150/filters:strip_icc()/pic7149798.jpg",
+      "image": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg",
+      "categories": [
+        "Ancient",
+        "Card Game",
+        "City Building",
+        "Civilization",
+        "Economic"
+      ],
+      "mechanics": [
+        "Closed Drafting",
+        "End Game Bonuses",
+        "Hand Management",
+        "Melding and Splaying",
+        "Multi-Use Cards",
+        "Neighbor Scope",
+        "Once-Per-Game Abilities",
+        "Score-and-Reset Game",
+        "Set Collection",
+        "Simultaneous Action Selection",
+        "Tags",
+        "Tech Trees / Tech Tracks",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "ratings": {
+        "average": 7.66576,
+        "bayesaverage": 7.55323,
+        "usersrated": 110969
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/68448",
+      "note": ""
+    },
+    {
+      "bgg_id": 13,
+      "name": "CATAN",
+      "yearpublished": 1995,
+      "players": {
+        "min": 3,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/0XODRpReiZBFUffEcqT5-Q__small/img/SNVfF23OQafv3u8xdFolJnMkBoM=/fit-in/200x150/filters:strip_icc()/pic9156909.png",
+      "image": "https://cf.geekdo-images.com/0XODRpReiZBFUffEcqT5-Q__original/img/oRc0AomWA9ZtFqQDZiZbIyKE1j0=/0x0/filters:format(png)/pic9156909.png",
+      "categories": [
+        "Economic",
+        "Negotiation"
+      ],
+      "mechanics": [
+        "Chaining",
+        "Dice Rolling",
+        "Hand Management",
+        "Hexagon Grid",
+        "Hidden Victory Points",
+        "Income",
+        "Market",
+        "Modular Board",
+        "Network and Route Building",
+        "Race",
+        "Random Production",
+        "Take That",
+        "Trading",
+        "Variable Set-up"
+      ],
+      "ratings": {
+        "average": 7.09064,
+        "bayesaverage": 6.90533,
+        "usersrated": 138788
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/13",
+      "note": ""
+    },
+    {
+      "bgg_id": 174430,
+      "name": "Gloomhaven",
+      "yearpublished": 2017,
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__small/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg",
+      "image": "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg",
+      "categories": [
+        "Adventure",
+        "Exploration",
+        "Fantasy",
+        "Fighting",
+        "Miniatures"
+      ],
+      "mechanics": [
+        "Action Queue",
+        "Action Retrieval",
+        "Campaign / Battle Card Driven",
+        "Card Play Conflict Resolution",
+        "Communication Limits",
+        "Cooperative Game",
+        "Critical Hits and Failures",
+        "Deck Construction",
+        "Grid Movement",
+        "Hand Management",
+        "Hexagon Grid",
+        "Legacy Game",
+        "Line of Sight",
+        "Modular Board",
+        "Multi-Use Cards",
+        "Narrative Choice / Paragraph",
+        "Once-Per-Game Abilities",
+        "Role Playing",
+        "Scenario / Mission / Campaign Game",
+        "Simultaneous Action Selection",
+        "Solo / Solitaire Game",
+        "Storytelling",
+        "Tags",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 8.55021,
+        "bayesaverage": 8.31074,
+        "usersrated": 66177
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/174430",
+      "note": "Best campaign game we own."
+    }
+  ]
+}

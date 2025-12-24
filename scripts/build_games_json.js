@@ -1,12 +1,12 @@
 // scripts/build_games_json.js
 // Node 18+
-// Generates site/games.json from games.yaml by fetching data from BoardGameGeek.
+// Generates docs/games.json from games.yaml by fetching data from BoardGameGeek.
 
 import fs from "node:fs";
 import path from "node:path";
 
 const YAML_PATH = path.join(process.cwd(), "games.yaml");
-const OUT_PATH = path.join(process.cwd(), "site", "games.json");
+const OUT_PATH = path.join(process.cwd(), "docs", "games.json");
 
 // Tiny YAML parser for our very simple format (games list with bgg_id + optional note).
 // If you later want full YAML support, swap this to use "yaml" npm package.
