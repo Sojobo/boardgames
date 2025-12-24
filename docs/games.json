@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-24T03:11:28.044Z",
+  "generated_at": "2025-12-24T04:03:05.584Z",
   "source": "BoardGameGeek XMLAPI2 /thing?stats=1",
   "games": [
     {
@@ -35,7 +35,8 @@
         "usersrated": 946
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/277670",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/amongcultists/among-cultists-new-stuff"
     },
     {
       "bgg_id": 155068,
@@ -199,7 +200,8 @@
         "usersrated": 4010
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/281549",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/studiomidhall/beast-4"
     },
     {
       "bgg_id": 284665,
@@ -234,7 +236,8 @@
         "usersrated": 466
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/284665",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/ovalimertcan/board-royale-survival-card-game"
     },
     {
       "bgg_id": 224517,
@@ -311,7 +314,8 @@
         "usersrated": 455
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/415078",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/ivstudios/brink-0"
     },
     {
       "bgg_id": 310774,
@@ -347,7 +351,8 @@
         "usersrated": 89
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/310774",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/piquegames/burn-the-witch-0"
     },
     {
       "bgg_id": 13,
@@ -425,7 +430,8 @@
         "usersrated": 5308
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/143515",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/candc-publishing/coal-baron"
     },
     {
       "bgg_id": 178900,
@@ -541,7 +547,8 @@
         "usersrated": 791
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/390422",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/ramybadie/command-of-nature"
     },
     {
       "bgg_id": 39463,
@@ -613,7 +620,8 @@
         "usersrated": 2153
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/393429",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/cardboardalchemy/critter-kitchen"
     },
     {
       "bgg_id": 348220,
@@ -654,7 +662,8 @@
         "usersrated": 1747
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/348220",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/moodpublishing/deep-rock-galactic-the-board-game"
     },
     {
       "bgg_id": 262547,
@@ -719,7 +728,8 @@
         "usersrated": 2321
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/324413",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/overlush/doomlings-overlush"
     },
     {
       "bgg_id": 367150,
@@ -762,7 +772,8 @@
         "usersrated": 3579
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/367150",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/cmon/dune-war-for-arrakis"
     },
     {
       "bgg_id": 172225,
@@ -876,7 +887,8 @@
         "usersrated": 156
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/408724",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/boredgameink/fractal-beyond-the-void"
     },
     {
       "bgg_id": 400489,
@@ -937,7 +949,8 @@
         "usersrated": 998
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/286160",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/pandasaurus/godspeed"
     },
     {
       "bgg_id": 232224,
@@ -1000,7 +1013,8 @@
         "usersrated": 617
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/341027",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/rollacrit/heroes-of-barcadia-heroes-for-hire"
     },
     {
       "bgg_id": 374595,
@@ -1036,7 +1050,8 @@
         "usersrated": 2842
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/374595",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/wonderbowgames/kelp-shark-vs-octopus-2-player-asymmetrical-game"
     },
     {
       "bgg_id": 365121,
@@ -1071,7 +1086,8 @@
         "usersrated": 89
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/365121",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/icemakes/morpho"
     },
     {
       "bgg_id": 285774,
@@ -1145,7 +1161,8 @@
         "usersrated": 12854
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/298047",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/cmon/marvel-united-multiverse"
     },
     {
       "bgg_id": 181524,
@@ -1275,7 +1292,8 @@
         "usersrated": 52
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/438924",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/ivstudios/moonrakers-titan"
     },
     {
       "bgg_id": 405923,
@@ -1338,7 +1356,8 @@
         "usersrated": 1579
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/342894",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/ivstudios/mythic-mischief-vol-ii"
     },
     {
       "bgg_id": 343990,
@@ -1375,7 +1394,8 @@
         "usersrated": 269
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/343990",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/palew/not-enough-mana-spellsmiths-and-summoners"
     },
     {
       "bgg_id": 30549,
@@ -1491,7 +1511,8 @@
         "usersrated": 60
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/341433",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/codomo/potato-pirates-3-battlechips"
     },
     {
       "bgg_id": 297139,
@@ -1531,7 +1552,8 @@
         "usersrated": 96
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/297139",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/codomo/potato-pirates-2-enter-the-spudnet"
     },
     {
       "bgg_id": 284998,
@@ -1567,7 +1589,8 @@
         "usersrated": 250
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/284998",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/nerial/reigns-the-council"
     },
     {
       "bgg_id": 205896,
@@ -1646,7 +1669,8 @@
         "usersrated": 3398
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/360692",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/mindclash/septima"
     },
     {
       "bgg_id": 257305,
@@ -1682,7 +1706,8 @@
         "usersrated": 849
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/257305",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/zainmemon/shasn-the-political-strategy-board-game-break-ks"
     },
     {
       "bgg_id": 157969,
@@ -1759,7 +1784,8 @@
         "usersrated": 2536
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/23540",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/joshuastarr/shikoku-1889"
     },
     {
       "bgg_id": 257193,
@@ -1832,7 +1858,8 @@
         "usersrated": 44
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/311332",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/979360119/sugar-heist"
     },
     {
       "bgg_id": 352735,
@@ -1867,7 +1894,55 @@
         "usersrated": 27
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/352735",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/previouslypluto/the-big-shuffle-a-film-noir-card-game"
+    },
+    {
+      "bgg_id": 336844,
+      "name": "The Binding of Isaac: Four Souls Requiem",
+      "yearpublished": 2023,
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 20,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/SX8luxQMrzCd9ivfGjI5wg__small/img/XT-XajUbtvcKqs8jnI1Lb5hbxwE=/fit-in/200x150/filters:strip_icc()/pic7486282.jpg",
+      "image": "https://cf.geekdo-images.com/SX8luxQMrzCd9ivfGjI5wg__original/img/K1p69kyJa1iUFqMusaimdeKDuIE=/0x0/filters:format(jpeg)/pic7486282.jpg",
+      "categories": [
+        "Expansion for Base-game",
+        "Card Game",
+        "Collectible Components",
+        "Horror",
+        "Negotiation",
+        "Video Game Theme"
+      ],
+      "mechanics": [
+        "Alliances",
+        "Bribery",
+        "Dice Rolling",
+        "Hand Management",
+        "Income",
+        "Interrupts",
+        "Negotiation",
+        "Open Drafting",
+        "Push Your Luck",
+        "Semi-Cooperative Game",
+        "Solo / Solitaire Game",
+        "Take That",
+        "Trading",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 8.31821,
+        "bayesaverage": 5.77955,
+        "usersrated": 486
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/336844",
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/isaacfoursouls/the-binding-of-isaac-4-souls-requiem"
     },
     {
       "bgg_id": 359927,
@@ -1900,7 +1975,8 @@
         "usersrated": 507
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/359927",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/lmstudio/the-breach-3"
     },
     {
       "bgg_id": 329543,
@@ -1942,7 +2018,8 @@
         "usersrated": 119
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/329543",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/purplelantern/the-presence"
     },
     {
       "bgg_id": 295293,
@@ -2113,7 +2190,8 @@
         "usersrated": 3661
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/290484",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/orangenebula/unsettled-board-game-all-new-content"
     },
     {
       "bgg_id": 234190,
@@ -2180,7 +2258,44 @@
         "usersrated": 1225
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/245659",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/horribleguild/vampire-the-masquerade-vendetta"
+    },
+    {
+      "bgg_id": 315695,
+      "name": "Veiled Fate",
+      "yearpublished": 2022,
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 60,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/_eLkcsjTeSbl4G-nREQWsw__small/img/KzexVe6RwouO5vjzP56RU9YqBmM=/fit-in/200x150/filters:strip_icc()/pic5706121.png",
+      "image": "https://cf.geekdo-images.com/_eLkcsjTeSbl4G-nREQWsw__original/img/2VGLIOKIN0UJThE2mRDXKgQjUY0=/0x0/filters:format(png)/pic5706121.png",
+      "categories": [
+        "Ancient",
+        "Bluffing",
+        "Deduction",
+        "Miniatures"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Deduction",
+        "Hand Management",
+        "Hidden Roles",
+        "Voting"
+      ],
+      "ratings": {
+        "average": 7.51806,
+        "bayesaverage": 6.37848,
+        "usersrated": 2024
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/315695",
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/ivstudios/veiled-fate-tribunal"
     },
     {
       "bgg_id": 318474,
@@ -2245,7 +2360,8 @@
         "usersrated": 227
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/263178",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/certifiablegames/who-goes-there-2nd-edition"
     },
     {
       "bgg_id": 427469,
@@ -2284,7 +2400,8 @@
         "usersrated": 13
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/427469",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/wmtt/who-murdered-the-turtle"
     },
     {
       "bgg_id": 227935,
@@ -2319,7 +2436,8 @@
         "usersrated": 9875
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/227935",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/druidcitygames/wonderlands-war-shards-of-madness-expansion-and-reprint"
     },
     {
       "bgg_id": 276997,
@@ -2354,7 +2472,8 @@
         "usersrated": 638
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/276997",
-      "note": ""
+      "note": "",
+      "kickstarter": "https://www.kickstarter.com/projects/boredgameink/x-odus-rise-of-the-corruption"
     }
   ]
 }

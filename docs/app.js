@@ -107,16 +107,32 @@ function render(games, meta) {
 
         ${g.note ? `<div class="note">${g.note}</div>` : ""}
 
-        ${g.bgg_url ? `
+        ${(g.bgg_url || g.kickstarter) ? `
             <div class="footer-row">
-                <a class="bgg-link" href="${g.bgg_url}" target="_blank" rel="noreferrer">
-                BGG
-                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                    <path d="M14 4h6v6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M10 14L20 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M20 14v6H4V4h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                </a>
+                <div class="external-links">
+                ${g.kickstarter ? `
+                    <a class="icon-link ks" href="${g.kickstarter}" target="_blank" rel="noreferrer" title="Kickstarter">
+                        <svg width="800px" height="800px" viewBox="-17 0 290 290" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                            <g fill="#05CE78">
+                            <path d="M209.302,144.583 L235.582,118.478 C262.806,91.436 262.806,47.391 235.582,20.349 C208.358,-6.694 164.018,-6.694 136.794,20.349 L127.225,29.853 C114.557,11.781 93.667,0 69.812,0 C31.267,0 0,31.059 0,69.346 L0,219.686 C0,257.973 31.267,289.032 69.812,289.032 C93.667,289.032 114.557,277.251 127.225,259.178 L136.794,268.683 C164.018,295.726 208.358,295.726 235.582,268.683 C262.806,241.641 262.806,197.597 235.582,170.554 L209.302,144.583" />
+                        </svg>
+                    </a>
+                ` : ``}
+
+                ${g.bgg_url ? `
+                    <a class="icon-link bgg" href="${g.bgg_url}" target="_blank" rel="noreferrer" title="BoardGameGeek">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor"
+                                d="M12 2c-2.4 0-4.4 2-4.4 4.4
+                                0 1 .3 1.9.9 2.6L4 13.4
+                                5.8 15l2.9-2.7V22h6.6v-9.7
+                                L18.2 15 20 13.4 15.5 9
+                                c.6-.7.9-1.6.9-2.6
+                                C16.4 4 14.4 2 12 2z"/>
+                        </svg>
+                    </a>
+                ` : ``}
+                </div>
             </div>
         ` : ""}
 

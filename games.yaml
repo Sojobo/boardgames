@@ -1,66 +1,106 @@
 games:
-  - bgg_id: 13
-  - bgg_id: 14996
-  - bgg_id: 23540
-  - bgg_id: 30549
-  - bgg_id: 39463
-  - bgg_id: 143515
-  - bgg_id: 145842
-  - bgg_id: 155068
-  - bgg_id: 157969
-  - bgg_id: 172225
-  - bgg_id: 178900
-  - bgg_id: 179803
-  - bgg_id: 181524
-  - bgg_id: 205637
-  - bgg_id: 205896
-  - bgg_id: 224517
-  - bgg_id: 227935
-  - bgg_id: 232224
-  - bgg_id: 234190
-  - bgg_id: 245638
-  - bgg_id: 245659
-  - bgg_id: 254617
-  - bgg_id: 257193
-  - bgg_id: 257305
-  - bgg_id: 262547
-  - bgg_id: 263178
-  - bgg_id: 276997
-  - bgg_id: 277670
-  - bgg_id: 281549
-  - bgg_id: 284665
-  - bgg_id: 284998
-  - bgg_id: 285774
-  - bgg_id: 286160
-  - bgg_id: 288584
-  - bgg_id: 290484
-  - bgg_id: 295293
-  - bgg_id: 297139
-  - bgg_id: 298047
-  - bgg_id: 310774
-  - bgg_id: 311332
-  - bgg_id: 312786
-  - bgg_id: 318474
-  - bgg_id: 324413
-  - bgg_id: 329543
-  - bgg_id: 336986
-  - bgg_id: 341027
-  - bgg_id: 341433
-  - bgg_id: 342894
-  - bgg_id: 343990
-  - bgg_id: 348220
-  - bgg_id: 352735
-  - bgg_id: 359927
-  - bgg_id: 360692
-  - bgg_id: 365121
-  - bgg_id: 367150
-  - bgg_id: 374595
-  - bgg_id: 390422
-  - bgg_id: 393429
-  - bgg_id: 400489
-  - bgg_id: 403000
-  - bgg_id: 405923
-  - bgg_id: 408724
-  - bgg_id: 415078
-  - bgg_id: 427469
-  - bgg_id: 438924
+  - bgg_id: 13 # CATAN
+  - bgg_id: 14996 # Ticket to Ride: Europe
+  - bgg_id: 23540 # Shikoku 1889
+    kickstarter: https://www.kickstarter.com/projects/joshuastarr/shikoku-1889
+  - bgg_id: 30549 # Pandemic
+  - bgg_id: 39463 # Cosmic Encounter
+  - bgg_id: 143515 # Coal Baron
+    kickstarter: https://www.kickstarter.com/projects/candc-publishing/coal-baron
+  - bgg_id: 145842 # Monopoly Empire
+  - bgg_id: 155068 # Arcadia Quest
+  - bgg_id: 157969 # Sheriff of Nottingham
+  - bgg_id: 172225 # Exploding Kittens
+  - bgg_id: 178900 # Codenames
+  - bgg_id: 179803 # Arcadia Quest: Inferno
+  - bgg_id: 181524 # Masmorra: Dungeons of Arcadia
+  - bgg_id: 205637 # Arkham Horror: The Card Game
+  - bgg_id: 205896 # Rising Sun
+  - bgg_id: 224517 # Brass: Birmingham
+  - bgg_id: 227935 # Wonderland&#039;s War
+    kickstarter: https://www.kickstarter.com/projects/druidcitygames/wonderlands-war-shards-of-madness-expansion-and-reprint
+  - bgg_id: 232224 # Gutterhead
+  - bgg_id: 234190 # Unstable Unicorns
+  - bgg_id: 245638 # Coimbra
+  - bgg_id: 245659 # Vampire: The Masquerade – Vendetta
+    kickstarter: https://www.kickstarter.com/projects/horribleguild/vampire-the-masquerade-vendetta
+  - bgg_id: 254617 # Monopoly: Cheaters Edition
+  - bgg_id: 257193 # Starcadia Quest
+  - bgg_id: 257305 # SHASN
+    kickstarter: https://www.kickstarter.com/projects/zainmemon/shasn-the-political-strategy-board-game-break-ks
+  - bgg_id: 262547 # Don&#039;t Get Got!
+  - bgg_id: 263178 # Who Goes There? Deluxe Edition
+    kickstarter: https://www.kickstarter.com/projects/certifiablegames/who-goes-there-2nd-edition
+  - bgg_id: 276997 # X-ODUS: Rise of the Corruption
+    kickstarter: https://www.kickstarter.com/projects/boredgameink/x-odus-rise-of-the-corruption
+  - bgg_id: 277670 # Among Cultists: A Social Deduction Thriller
+    kickstarter: https://www.kickstarter.com/projects/amongcultists/among-cultists-new-stuff
+  - bgg_id: 281549 # Beast
+    kickstarter: https://www.kickstarter.com/projects/studiomidhall/beast-4
+  - bgg_id: 284665 # Board Royale: The Island
+    kickstarter: https://www.kickstarter.com/projects/ovalimertcan/board-royale-survival-card-game
+  - bgg_id: 284998 # Reigns: The Council
+    kickstarter: https://www.kickstarter.com/projects/nerial/reigns-the-council
+  - bgg_id: 285774 # Marvel Champions: The Card Game
+  - bgg_id: 286160 # Godspeed
+    kickstarter: https://www.kickstarter.com/projects/pandasaurus/godspeed
+  - bgg_id: 288584 # Think Fast
+  - bgg_id: 290484 # Unsettled
+    kickstarter: https://www.kickstarter.com/projects/orangenebula/unsettled-board-game-all-new-content
+  - bgg_id: 295293 # The Thing: The Boardgame
+  - bgg_id: 297139 # Potato Pirates: Enter the Spudnet
+    kickstarter: https://www.kickstarter.com/projects/codomo/potato-pirates-2-enter-the-spudnet
+  - bgg_id: 298047 # Marvel United
+    kickstarter: https://www.kickstarter.com/projects/cmon/marvel-united-multiverse
+  - bgg_id: 310774 # Burn the Witch
+    kickstarter: https://www.kickstarter.com/projects/piquegames/burn-the-witch-0
+  - bgg_id: 311332 # Sugar Heist
+    kickstarter: https://www.kickstarter.com/projects/979360119/sugar-heist
+  - bgg_id: 312786 # Poetry for Neanderthals
+  - bgg_id: 318474 # Who Goes There? 2nd Edition
+  - bgg_id: 324413 # Doomlings
+    kickstarter: https://www.kickstarter.com/projects/overlush/doomlings-overlush
+  - bgg_id: 329543 # The Presence
+    kickstarter: https://www.kickstarter.com/projects/purplelantern/the-presence
+  - bgg_id: 336986 # Flamecraft
+  - bgg_id: 341027 # Heroes of Barcadia
+    kickstarter: https://www.kickstarter.com/projects/rollacrit/heroes-of-barcadia-heroes-for-hire
+  - bgg_id: 341433 # Potato Pirates 3: Battlechips
+    kickstarter: https://www.kickstarter.com/projects/codomo/potato-pirates-3-battlechips
+  - bgg_id: 342894 # Mythic Mischief
+    kickstarter: https://www.kickstarter.com/projects/ivstudios/mythic-mischief-vol-ii
+  - bgg_id: 343990 # Not Enough Mana
+    kickstarter: https://www.kickstarter.com/projects/palew/not-enough-mana-spellsmiths-and-summoners
+  - bgg_id: 348220 # Deep Rock Galactic: The Board Game
+    kickstarter: https://www.kickstarter.com/projects/moodpublishing/deep-rock-galactic-the-board-game
+  - bgg_id: 352735 # The Big Shuffle: A Film Noir Card Game
+    kickstarter: https://www.kickstarter.com/projects/previouslypluto/the-big-shuffle-a-film-noir-card-game
+  - bgg_id: 359927 # The Breach
+    kickstarter: https://www.kickstarter.com/projects/lmstudio/the-breach-3
+  - bgg_id: 360692 # Septima
+    kickstarter: https://www.kickstarter.com/projects/mindclash/septima
+  - bgg_id: 365121 # M.O.R.P.H.O.
+    kickstarter: https://www.kickstarter.com/projects/icemakes/morpho
+  - bgg_id: 367150 # Dune: War for Arrakis
+    kickstarter: https://www.kickstarter.com/projects/cmon/dune-war-for-arrakis
+  - bgg_id: 374595 # Kelp: Shark vs Octopus
+    kickstarter: https://www.kickstarter.com/projects/wonderbowgames/kelp-shark-vs-octopus-2-player-asymmetrical-game
+  - bgg_id: 390422 # Command of Nature
+    kickstarter: https://www.kickstarter.com/projects/ramybadie/command-of-nature
+  - bgg_id: 393429 # Critter Kitchen
+    kickstarter: https://www.kickstarter.com/projects/cardboardalchemy/critter-kitchen
+  - bgg_id: 400489 # Galactic Heroes
+  - bgg_id: 403000 # Traitors Aboard
+  - bgg_id: 405923 # Moonrollers
+  - bgg_id: 408724 # Fractal: Beyond the Void
+    kickstarter: https://www.kickstarter.com/projects/boredgameink/fractal-beyond-the-void
+  - bgg_id: 415078 # Brink
+    kickstarter: https://www.kickstarter.com/projects/ivstudios/brink-0
+  - bgg_id: 427469 # Who Murdered the Turtle?
+    kickstarter: https://www.kickstarter.com/projects/wmtt/who-murdered-the-turtle
+  - bgg_id: 438924 # Moonrakers: Titan Edition
+    kickstarter: https://www.kickstarter.com/projects/ivstudios/moonrakers-titan
+  - bgg_id: 315695 # Veiled Fate: Tribunal
+    kickstarter: https://www.kickstarter.com/projects/ivstudios/veiled-fate-tribunal
+  - bgg_id: 336844 # The Binding of Isaac: Four Souls Requiem
+    kickstarter: https://www.kickstarter.com/projects/isaacfoursouls/the-binding-of-isaac-4-souls-requiem
