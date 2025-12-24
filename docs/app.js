@@ -16,10 +16,9 @@ function fmtTime(t) {
 
 function fmtRating(r) {
     const avg = r?.average;
-    const users = r?.usersrated;
-    if (!avg || !Number.isFinite(avg)) return "Rating: ?";
+    if (!avg || !Number.isFinite(avg)) return null;
     const rounded = Math.round(avg * 10) / 10;
-    return users ? `★ ${rounded} (${users.toLocaleString()})` : `★ ${rounded}`;
+    return `${rounded}`;
 }
 
 function worksWithPlayers(game, n) {
@@ -77,7 +76,7 @@ function render(games, meta) {
       <div class="card-body">
         <div class="card-title">
           <span>${g.name ?? "Unknown"}</span>
-          <span class="badge">${fmtRating(g.ratings)}</span>
+          ${fmtRating(g.ratings) ? `<span class="badge"><span class="star">★</span>${fmtRating(g.ratings)}</span>` : ""}
         </div>
 
         <div class="kv">
@@ -88,14 +87,11 @@ function render(games, meta) {
 
         <div class="tags">
           ${topTags.map((t) => `<span class="tag">${t}</span>`).join("")}
-          ${g.mechanics?.length ? `<span class="tag">+ ${g.mechanics.length} mechanics</span>` : ""}
-        </div>
-
-        <div class="actions">
-          ${g.bgg_url ? `<a class="button" href="${g.bgg_url}" target="_blank" rel="noreferrer">BGG page</a>` : ""}
         </div>
 
         ${g.note ? `<div class="note">${g.note}</div>` : ""}
+
+        ${g.bgg_url ? `<a class="bgg-link" href="${g.bgg_url}" target="_blank" rel="noreferrer">BGG</a>` : ""}
       </div>
     `;
 

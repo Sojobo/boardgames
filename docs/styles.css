@@ -11,6 +11,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     margin: 0;
     font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
@@ -19,6 +24,11 @@ body {
         radial-gradient(1000px 700px at 90% 10%, rgba(255, 140, 100, 0.20), transparent 60%),
         var(--bg);
     color: var(--text);
+
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 a {
@@ -55,12 +65,22 @@ h1 {
 
 input,
 select {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(10, 15, 23, 0.85);
     border: 1px solid var(--border);
     color: var(--text);
     border-radius: 12px;
     padding: 10px 12px;
     outline: none;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+option {
+    background: #0b0f17;
+    color: var(--text);
 }
 
 input::placeholder {
@@ -99,10 +119,13 @@ select:focus {
     display: flex;
     flex-direction: column;
     min-height: 360px;
+    position: relative;
 }
 
 .thumb {
-    height: 170px;
+    aspect-ratio: 4 / 3;
+    height: auto;
+    /* let aspect-ratio control it */
     background: rgba(255, 255, 255, 0.03);
     display: flex;
     align-items: center;
@@ -113,7 +136,11 @@ select:focus {
 .thumb img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    /* key change */
+    object-position: center;
+    padding: 10px;
+    /* gives box art breathing room */
     display: block;
 }
 
@@ -131,16 +158,32 @@ select:focus {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    align-items: flex-start;
 }
 
 .badge {
     font-size: 12px;
-    color: rgba(234, 242, 255, 0.85);
+    line-height: 1;
+    height: 24px;
+    /* fixed height */
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: rgba(234, 242, 255, 0.9);
     background: rgba(155, 176, 201, 0.12);
     border: 1px solid rgba(155, 176, 201, 0.18);
-    padding: 4px 8px;
+    padding: 0 10px;
     border-radius: 999px;
     white-space: nowrap;
+    flex: 0 0 auto;
+    align-self: flex-start;
+    /* prevents stretching with the title */
+}
+
+.badge .star {
+    color: #f2c94c;
+    /* gold */
+    font-size: 13px;
 }
 
 .kv {
@@ -171,6 +214,23 @@ select:focus {
     border: 1px solid var(--border);
     padding: 5px 8px;
     border-radius: 999px;
+}
+
+.bgg-link {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgba(234, 242, 255, 0.85);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border);
+    padding: 6px 8px;
+    border-radius: 12px;
+}
+
+.bgg-link:hover {
+    background: rgba(255, 255, 255, 0.10);
 }
 
 .note {
