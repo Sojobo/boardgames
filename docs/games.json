@@ -1,50 +1,352 @@
 {
-  "generated_at": "2025-12-24T02:20:25.537Z",
+  "generated_at": "2025-12-24T02:31:08.950Z",
   "source": "BoardGameGeek XMLAPI2 /thing?stats=1",
   "games": [
     {
-      "bgg_id": 68448,
-      "name": "7 Wonders",
-      "yearpublished": 2010,
+      "bgg_id": 277670,
+      "name": "Among Cultists: A Social Deduction Thriller",
+      "yearpublished": 2023,
+      "players": {
+        "min": 4,
+        "max": 8
+      },
+      "playtime": {
+        "min": 45,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/ZljGAZbiYM3Ak3Mg4RE1Qw__small/img/wjv2XamjJVmI77CquLvTDiY5Lpo=/fit-in/200x150/filters:strip_icc()/pic7181914.jpg",
+      "image": "https://cf.geekdo-images.com/ZljGAZbiYM3Ak3Mg4RE1Qw__original/img/8pwHFGkMCacx03ANgln1jZ9QzjA=/0x0/filters:format(jpeg)/pic7181914.jpg",
+      "categories": [
+        "Deduction",
+        "Horror"
+      ],
+      "mechanics": [
+        "Action / Event",
+        "Deduction",
+        "Hidden Roles",
+        "Point to Point Movement",
+        "Team-Based Game",
+        "Traitor Game",
+        "Voting"
+      ],
+      "ratings": {
+        "average": 7.06097,
+        "bayesaverage": 5.85812,
+        "usersrated": 946
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/277670",
+      "note": ""
+    },
+    {
+      "bgg_id": 155068,
+      "name": "Arcadia Quest",
+      "yearpublished": 2014,
       "players": {
         "min": 2,
-        "max": 7
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/8qyLCqvdZkSpT2lEbwVpeg__small/img/ELrGgos0zEyITfKR5mpDokYKWAc=/fit-in/200x150/filters:strip_icc()/pic2305263.jpg",
+      "image": "https://cf.geekdo-images.com/8qyLCqvdZkSpT2lEbwVpeg__original/img/8oGnjG0FUHy9Mo6VkbZVXZmDnwU=/0x0/filters:format(jpeg)/pic2305263.jpg",
+      "categories": [
+        "Adventure",
+        "Exploration",
+        "Fantasy",
+        "Fighting",
+        "Miniatures"
+      ],
+      "mechanics": [
+        "Action Retrieval",
+        "Dice Rolling",
+        "Grid Movement",
+        "Line of Sight",
+        "Modular Board",
+        "Scenario / Mission / Campaign Game",
+        "Square Grid",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.58826,
+        "bayesaverage": 7.13469,
+        "usersrated": 10751
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/155068",
+      "note": ""
+    },
+    {
+      "bgg_id": 179803,
+      "name": "Arcadia Quest: Inferno",
+      "yearpublished": 2017,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/1nK95H00UfV88m7aXSPmXA__small/img/U7ic5aJM0fo42OaiK8pjTGdq0ko=/fit-in/200x150/filters:strip_icc()/pic3836517.jpg",
+      "image": "https://cf.geekdo-images.com/1nK95H00UfV88m7aXSPmXA__original/img/tlLePVCNTRX_690ubGro-ZMzM3c=/0x0/filters:format(jpeg)/pic3836517.jpg",
+      "categories": [
+        "Adventure",
+        "Fantasy",
+        "Fighting",
+        "Miniatures"
+      ],
+      "mechanics": [
+        "Action Retrieval",
+        "Dice Rolling",
+        "Grid Movement",
+        "Modular Board",
+        "Scenario / Mission / Campaign Game",
+        "Square Grid",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.84997,
+        "bayesaverage": 6.63749,
+        "usersrated": 2480
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/179803",
+      "note": ""
+    },
+    {
+      "bgg_id": 205637,
+      "name": "Arkham Horror: The Card Game",
+      "yearpublished": 2016,
+      "players": {
+        "min": 1,
+        "max": 2
+      },
+      "playtime": {
+        "min": 60,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/B5F5ulz0UivNgrI9Ky0euA__small/img/L8ouPl5jv2Ye9MC4R_Os2zSGigE=/fit-in/200x150/filters:strip_icc()/pic3122349.jpg",
+      "image": "https://cf.geekdo-images.com/B5F5ulz0UivNgrI9Ky0euA__original/img/guEKCewM_2e5ugltSN3dTSwdZJI=/0x0/filters:format(jpeg)/pic3122349.jpg",
+      "categories": [
+        "Adventure",
+        "Card Game",
+        "Collectible Components",
+        "Exploration",
+        "Horror",
+        "Novel-based"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Area Movement",
+        "Communication Limits",
+        "Cooperative Game",
+        "Deck Construction",
+        "Events",
+        "Hand Management",
+        "Map Deformation",
+        "Modular Board",
+        "Player Elimination",
+        "Push Your Luck",
+        "Role Playing",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Stat Check Resolution",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 8.12468,
+        "bayesaverage": 7.89491,
+        "usersrated": 46937
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/205637",
+      "note": ""
+    },
+    {
+      "bgg_id": 281549,
+      "name": "Beast",
+      "yearpublished": 2023,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/-9NLgO6ASOHgZtMtamqjxw__small/img/fCr4XXnWjrm7TBCL4Vf_VH7pHYA=/fit-in/200x150/filters:strip_icc()/pic6418160.png",
+      "image": "https://cf.geekdo-images.com/-9NLgO6ASOHgZtMtamqjxw__original/img/h0pnI_UvkAQfMPhQq-7dKzEcHlc=/0x0/filters:format(png)/pic6418160.png",
+      "categories": [
+        "Deduction",
+        "Fantasy",
+        "Fighting",
+        "Horror"
+      ],
+      "mechanics": [
+        "Action Drafting",
+        "Closed Drafting",
+        "Hand Management",
+        "Hidden Movement",
+        "Multi-Use Cards",
+        "Point to Point Movement",
+        "Secret Unit Deployment",
+        "Team-Based Game",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.46087,
+        "bayesaverage": 6.65426,
+        "usersrated": 4010
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/281549",
+      "note": ""
+    },
+    {
+      "bgg_id": 284665,
+      "name": "Board Royale: The Island",
+      "yearpublished": 2020,
+      "players": {
+        "min": 2,
+        "max": 6
       },
       "playtime": {
         "min": 30,
-        "max": 30
+        "max": 60
       },
-      "thumbnail": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__small/img/BUOso8b0M1aUOkU80FWlhE8uuxc=/fit-in/200x150/filters:strip_icc()/pic7149798.jpg",
-      "image": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/rM1cnm1Bm02zLgeWPMmJ2g__small/img/HWg1JliTfSzfDmT6LBSqpN6YO3E=/fit-in/200x150/filters:strip_icc()/pic6850251.png",
+      "image": "https://cf.geekdo-images.com/rM1cnm1Bm02zLgeWPMmJ2g__original/img/DGqG6fCZu9dRYhgUfmI9l8zizoo=/0x0/filters:format(png)/pic6850251.png",
       "categories": [
-        "Ancient",
-        "Card Game",
-        "City Building",
-        "Civilization",
-        "Economic"
+        "Bluffing",
+        "Card Game"
       ],
       "mechanics": [
-        "Closed Drafting",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Open Drafting",
+        "Player Elimination",
+        "Semi-Cooperative Game",
+        "Trading",
+        "Voting"
+      ],
+      "ratings": {
+        "average": 6.56442,
+        "bayesaverage": 5.62034,
+        "usersrated": 466
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/284665",
+      "note": ""
+    },
+    {
+      "bgg_id": 224517,
+      "name": "Brass: Birmingham",
+      "yearpublished": 2018,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__small/img/o18rjEemoWaVru9Y2TyPwuIaRfE=/fit-in/200x150/filters:strip_icc()/pic3490053.jpg",
+      "image": "https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__original/img/FpyxH41Y6_ROoePAilPNEhXnzO8=/0x0/filters:format(jpeg)/pic3490053.jpg",
+      "categories": [
+        "Age of Reason",
+        "Economic",
+        "Industry / Manufacturing",
+        "Post-Napoleonic",
+        "Trains",
+        "Transportation"
+      ],
+      "mechanics": [
+        "Chaining",
         "End Game Bonuses",
         "Hand Management",
-        "Melding and Splaying",
+        "Income",
+        "Loans",
+        "Market",
         "Multi-Use Cards",
-        "Neighbor Scope",
-        "Once-Per-Game Abilities",
-        "Score-and-Reset Game",
-        "Set Collection",
-        "Simultaneous Action Selection",
+        "Network and Route Building",
+        "Ownership",
         "Tags",
         "Tech Trees / Tech Tracks",
-        "Variable Player Powers",
+        "Tile Placement",
+        "Turn Order: Stat-Based",
         "Variable Set-up"
       ],
       "ratings": {
-        "average": 7.66576,
-        "bayesaverage": 7.55323,
-        "usersrated": 110969
+        "average": 8.5701,
+        "bayesaverage": 8.3983,
+        "usersrated": 55614
       },
-      "bgg_url": "https://boardgamegeek.com/boardgame/68448",
+      "bgg_url": "https://boardgamegeek.com/boardgame/224517",
+      "note": ""
+    },
+    {
+      "bgg_id": 415078,
+      "name": "Brink",
+      "yearpublished": 2025,
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 150
+      },
+      "thumbnail": "https://cf.geekdo-images.com/dmFiFjc12CeVWujK5PbVNw__small/img/Cet6lOgINIH5ndgtC-2yy2QMci8=/fit-in/200x150/filters:strip_icc()/pic8250385.png",
+      "image": "https://cf.geekdo-images.com/dmFiFjc12CeVWujK5PbVNw__original/img/JslJJWJ8owc18C5p75kJf1DvdLA=/0x0/filters:format(png)/pic8250385.png",
+      "categories": [
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Trading",
+        "Voting",
+        "Worker Placement, Different Worker Types"
+      ],
+      "ratings": {
+        "average": 7.62077,
+        "bayesaverage": 5.81003,
+        "usersrated": 455
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/415078",
+      "note": ""
+    },
+    {
+      "bgg_id": 310774,
+      "name": "Burn the Witch",
+      "yearpublished": 2025,
+      "players": {
+        "min": 5,
+        "max": 15
+      },
+      "playtime": {
+        "min": 45,
+        "max": 75
+      },
+      "thumbnail": "https://cf.geekdo-images.com/CzCZvoOSsSnu_2CgygwsUQ__small/img/-ks6zd2uOEtORcot6jEgoqqPymI=/fit-in/200x150/filters:strip_icc()/pic7708512.jpg",
+      "image": "https://cf.geekdo-images.com/CzCZvoOSsSnu_2CgygwsUQ__original/img/CbbiPZOjcsPqcIsrryQbHCZInJI=/0x0/filters:format(jpeg)/pic7708512.jpg",
+      "categories": [
+        "Bluffing",
+        "Card Game",
+        "Deduction",
+        "Party Game",
+        "Print & Play"
+      ],
+      "mechanics": [
+        "Hidden Roles",
+        "Player Judge",
+        "Roles with Asymmetric Information",
+        "Traitor Game",
+        "Voting"
+      ],
+      "ratings": {
+        "average": 7.46067,
+        "bayesaverage": 5.50853,
+        "usersrated": 89
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/310774",
       "note": ""
     },
     {
@@ -90,59 +392,1969 @@
       "note": ""
     },
     {
-      "bgg_id": 174430,
-      "name": "Gloomhaven",
-      "yearpublished": 2017,
+      "bgg_id": 143515,
+      "name": "Coal Baron",
+      "yearpublished": 2013,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 75
+      },
+      "thumbnail": "https://cf.geekdo-images.com/7D9-gGeosFC8rsYQo2u3qg__small/img/5c0bcDM4FKEhHrl3RHl_jRP2V1k=/fit-in/200x150/filters:strip_icc()/pic7264142.jpg",
+      "image": "https://cf.geekdo-images.com/7D9-gGeosFC8rsYQo2u3qg__original/img/yXvsyL4AY3oB93qdwXQ3LwxJQ_k=/0x0/filters:format(jpeg)/pic7264142.jpg",
+      "categories": [
+        "Industry / Manufacturing",
+        "Trains",
+        "Transportation"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Area Majority / Influence",
+        "Contracts",
+        "Pick-up and Deliver",
+        "Set Collection",
+        "Tile Placement",
+        "Worker Placement"
+      ],
+      "ratings": {
+        "average": 7.2649,
+        "bayesaverage": 6.71403,
+        "usersrated": 5308
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/143515",
+      "note": ""
+    },
+    {
+      "bgg_id": 178900,
+      "name": "Codenames",
+      "yearpublished": 2015,
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "thumbnail": "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__small/img/1iZav_8ZqurrDbvkZA9GcFhB5x0=/fit-in/200x150/filters:strip_icc()/pic8907965.jpg",
+      "image": "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__original/img/Id-jjIer_61ZbvI2_RVRCeBZFY4=/0x0/filters:format(jpeg)/pic8907965.jpg",
+      "categories": [
+        "Card Game",
+        "Deduction",
+        "Party Game",
+        "Spies / Secret Agents",
+        "Word Game"
+      ],
+      "mechanics": [
+        "Communication Limits",
+        "Deduction",
+        "Memory",
+        "Race",
+        "Team-Based Game"
+      ],
+      "ratings": {
+        "average": 7.52833,
+        "bayesaverage": 7.43283,
+        "usersrated": 101279
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/178900",
+      "note": ""
+    },
+    {
+      "bgg_id": 245638,
+      "name": "Coimbra",
+      "yearpublished": 2018,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/JJFHx0RiUBYdy9bHAgVSuA__small/img/-eaAIbixYxRRVj0tDTS1oP_9Njk=/fit-in/200x150/filters:strip_icc()/pic3956079.jpg",
+      "image": "https://cf.geekdo-images.com/JJFHx0RiUBYdy9bHAgVSuA__original/img/zwcZQov_aUfBN0z9J9PzsJqomeI=/0x0/filters:format(jpeg)/pic3956079.jpg",
+      "categories": [
+        "Dice",
+        "Renaissance"
+      ],
+      "mechanics": [
+        "Action Drafting",
+        "Auction / Bidding",
+        "Dice Rolling",
+        "End Game Bonuses",
+        "Income",
+        "Open Drafting",
+        "Point to Point Movement",
+        "Set Collection",
+        "Tech Trees / Tech Tracks",
+        "Turn Order: Stat-Based",
+        "Variable Set-up",
+        "Worker Placement with Dice Workers"
+      ],
+      "ratings": {
+        "average": 7.60277,
+        "bayesaverage": 7.25994,
+        "usersrated": 12783
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/245638",
+      "note": ""
+    },
+    {
+      "bgg_id": 390422,
+      "name": "Command of Nature",
+      "yearpublished": 2024,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/2n-CNMTJ6cPEPaeAzKWCeg__small/img/B59330ps94L1QLuGkOoz29_Mp94=/fit-in/200x150/filters:strip_icc()/pic7570458.png",
+      "image": "https://cf.geekdo-images.com/2n-CNMTJ6cPEPaeAzKWCeg__original/img/jDaOE8GMqbd_UO3x2HYtYq3qTvU=/0x0/filters:format(png)/pic7570458.png",
+      "categories": [
+        "Animals",
+        "Card Game",
+        "Children&#039;s Game",
+        "Fantasy"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Command Cards",
+        "Deck, Bag, and Pool Building",
+        "Delayed Purchase",
+        "Hand Management",
+        "Income",
+        "Interrupts",
+        "Open Drafting",
+        "Tags",
+        "Take That"
+      ],
+      "ratings": {
+        "average": 6.99847,
+        "bayesaverage": 5.80846,
+        "usersrated": 791
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/390422",
+      "note": ""
+    },
+    {
+      "bgg_id": 39463,
+      "name": "Cosmic Encounter",
+      "yearpublished": 2008,
+      "players": {
+        "min": 3,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/S8cE-Ld7XP5sVz-upKJ-Bg__small/img/gE--xqnuor4bft2J361zxJJGCjM=/fit-in/200x150/filters:strip_icc()/pic1521633.jpg",
+      "image": "https://cf.geekdo-images.com/S8cE-Ld7XP5sVz-upKJ-Bg__original/img/c4ZrfOtpp6tDHLyMsKecc2ne370=/0x0/filters:format(jpeg)/pic1521633.jpg",
+      "categories": [
+        "Bluffing",
+        "Negotiation",
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Alliances",
+        "Card Play Conflict Resolution",
+        "Hand Management",
+        "Interrupts",
+        "Negotiation",
+        "Prisoner&#039;s Dilemma",
+        "Race",
+        "Simultaneous Action Selection",
+        "Take That",
+        "Trading",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.50875,
+        "bayesaverage": 7.31702,
+        "usersrated": 34539
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/39463",
+      "note": ""
+    },
+    {
+      "bgg_id": 393429,
+      "name": "Critter Kitchen",
+      "yearpublished": 2025,
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/w72-A0u4uH2j_YqGwu4E0w__small/img/qFG2IdCRk89cQpOXZIQTyM-mcWQ=/fit-in/200x150/filters:strip_icc()/pic7594267.jpg",
+      "image": "https://cf.geekdo-images.com/w72-A0u4uH2j_YqGwu4E0w__original/img/TPAyEsDHcvMyr31_Bds-ZP3TvOU=/0x0/filters:format(jpeg)/pic7594267.jpg",
+      "categories": [
+        "Animals"
+      ],
+      "mechanics": [
+        "Contracts",
+        "Programmed Movement",
+        "Variable Player Powers",
+        "Worker Placement, Different Worker Types"
+      ],
+      "ratings": {
+        "average": 7.84542,
+        "bayesaverage": 6.54588,
+        "usersrated": 2153
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/393429",
+      "note": ""
+    },
+    {
+      "bgg_id": 348220,
+      "name": "Deep Rock Galactic: The Board Game",
+      "yearpublished": 2022,
       "players": {
         "min": 1,
         "max": 4
       },
       "playtime": {
         "min": 60,
-        "max": 120
+        "max": 150
       },
-      "thumbnail": "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__small/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg",
-      "image": "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg",
+      "thumbnail": "https://cf.geekdo-images.com/LlbizD6pMEMBm2pzYg8QVA__small/img/59svRE4qwjxLyBPJbLVJH_Uvsvo=/fit-in/200x150/filters:strip_icc()/pic6653293.jpg",
+      "image": "https://cf.geekdo-images.com/LlbizD6pMEMBm2pzYg8QVA__original/img/_6xbP9HoSLZi9CoJa0_GV_OSGd8=/0x0/filters:format(jpeg)/pic6653293.jpg",
       "categories": [
-        "Adventure",
-        "Exploration",
-        "Fantasy",
-        "Fighting",
-        "Miniatures"
+        "Miniatures",
+        "Science Fiction",
+        "Video Game Theme"
       ],
       "mechanics": [
-        "Action Queue",
-        "Action Retrieval",
-        "Campaign / Battle Card Driven",
-        "Card Play Conflict Resolution",
-        "Communication Limits",
         "Cooperative Game",
-        "Critical Hits and Failures",
-        "Deck Construction",
+        "Dice Rolling",
+        "Events",
         "Grid Movement",
-        "Hand Management",
         "Hexagon Grid",
-        "Legacy Game",
         "Line of Sight",
+        "Map Addition",
         "Modular Board",
-        "Multi-Use Cards",
-        "Narrative Choice / Paragraph",
-        "Once-Per-Game Abilities",
-        "Role Playing",
+        "Pick-up and Deliver",
         "Scenario / Mission / Campaign Game",
-        "Simultaneous Action Selection",
         "Solo / Solitaire Game",
-        "Storytelling",
-        "Tags",
         "Variable Player Powers"
       ],
       "ratings": {
-        "average": 8.55021,
-        "bayesaverage": 8.31074,
-        "usersrated": 66177
+        "average": 8.11447,
+        "bayesaverage": 6.46633,
+        "usersrated": 1747
       },
-      "bgg_url": "https://boardgamegeek.com/boardgame/174430",
-      "note": "Best campaign game we own."
+      "bgg_url": "https://boardgamegeek.com/boardgame/348220",
+      "note": ""
+    },
+    {
+      "bgg_id": 262547,
+      "name": "Don&#039;t Get Got!",
+      "yearpublished": 2018,
+      "players": {
+        "min": 2,
+        "max": 10
+      },
+      "playtime": {
+        "min": 0,
+        "max": 0
+      },
+      "thumbnail": "https://cf.geekdo-images.com/YIxmAusaJJq4SpiSpSAKWQ__small/img/9i6K95aGNZegnktzp4Cv4t805I4=/fit-in/200x150/filters:strip_icc()/pic6935641.png",
+      "image": "https://cf.geekdo-images.com/YIxmAusaJJq4SpiSpSAKWQ__original/img/eF9QBEETiQcbshrwrstTk6X5Pf0=/0x0/filters:format(png)/pic6935641.png",
+      "categories": [
+        "Bluffing",
+        "Humor",
+        "Party Game"
+      ],
+      "mechanics": [
+        "Acting",
+        "Hidden Roles"
+      ],
+      "ratings": {
+        "average": 6.95562,
+        "bayesaverage": 6.15146,
+        "usersrated": 1932
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/262547",
+      "note": ""
+    },
+    {
+      "bgg_id": 324413,
+      "name": "Doomlings",
+      "yearpublished": 2022,
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 45
+      },
+      "thumbnail": "https://cf.geekdo-images.com/v3c8Z12rTB_0lHndnnKZIw__small/img/W7rBCi1G8WMKHfFxd66N8d3nLnc=/fit-in/200x150/filters:strip_icc()/pic8493673.jpg",
+      "image": "https://cf.geekdo-images.com/v3c8Z12rTB_0lHndnnKZIw__original/img/HnfGCJi2Z2rMIVnCRip4DU3LnIs=/0x0/filters:format(jpeg)/pic8493673.jpg",
+      "categories": [
+        "Card Game"
+      ],
+      "mechanics": [
+        "End Game Bonuses",
+        "Events",
+        "Finale Ending",
+        "Hand Management",
+        "Move Through Deck",
+        "Set Collection",
+        "Take That"
+      ],
+      "ratings": {
+        "average": 6.76839,
+        "bayesaverage": 6.00338,
+        "usersrated": 2321
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/324413",
+      "note": ""
+    },
+    {
+      "bgg_id": 367150,
+      "name": "Dune: War for Arrakis",
+      "yearpublished": 2024,
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 120,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/b_Uo-x3szhupSWeQdw5bdg__small/img/890K-CXqdcJoNgICyOlpnru48v4=/fit-in/200x150/filters:strip_icc()/pic7088918.jpg",
+      "image": "https://cf.geekdo-images.com/b_Uo-x3szhupSWeQdw5bdg__original/img/FGqkNWPyWBiERARxf5eLuLt831o=/0x0/filters:format(jpeg)/pic7088918.jpg",
+      "categories": [
+        "Dice",
+        "Movies / TV / Radio theme",
+        "Novel-based",
+        "Science Fiction",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Action Drafting",
+        "Area Majority / Influence",
+        "Area Movement",
+        "Campaign / Battle Card Driven",
+        "Dice Rolling",
+        "Die Icon Resolution",
+        "Events",
+        "Hand Management",
+        "Simulation",
+        "Solo / Solitaire Game",
+        "Team-Based Game",
+        "Variable Set-up"
+      ],
+      "ratings": {
+        "average": 8.4882,
+        "bayesaverage": 7.19092,
+        "usersrated": 3579
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/367150",
+      "note": ""
+    },
+    {
+      "bgg_id": 172225,
+      "name": "Exploding Kittens",
+      "yearpublished": 2015,
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "thumbnail": "https://cf.geekdo-images.com/N8bL53-pRU7zaXDTrEaYrw__small/img/3tH4pIc1Udzkd0tXc6MgVQ59BC0=/fit-in/200x150/filters:strip_icc()/pic2691976.png",
+      "image": "https://cf.geekdo-images.com/N8bL53-pRU7zaXDTrEaYrw__original/img/0ciN1VZYifUd0qIDO0e8cGXmiss=/0x0/filters:format(png)/pic2691976.png",
+      "categories": [
+        "Animals",
+        "Card Game",
+        "Comic Book / Strip",
+        "Humor"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Hot Potato",
+        "Player Elimination",
+        "Push Your Luck",
+        "Set Collection",
+        "Take That"
+      ],
+      "ratings": {
+        "average": 6.06669,
+        "bayesaverage": 5.88214,
+        "usersrated": 40055
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/172225",
+      "note": ""
+    },
+    {
+      "bgg_id": 336986,
+      "name": "Flamecraft",
+      "yearpublished": 2022,
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/EvGtnsBDcfnKiqSiXHothQ__small/img/bQcyvzYRdMFFvcdQkFVnIRiCPjE=/fit-in/200x150/filters:strip_icc()/pic6605448.jpg",
+      "image": "https://cf.geekdo-images.com/EvGtnsBDcfnKiqSiXHothQ__original/img/7yj8nA0ObuZ1w5AYCThEOK6meWA=/0x0/filters:format(jpeg)/pic6605448.jpg",
+      "categories": [
+        "Animals",
+        "Card Game",
+        "City Building",
+        "Fantasy"
+      ],
+      "mechanics": [
+        "Contracts",
+        "End Game Bonuses",
+        "Hand Management",
+        "Modular Board",
+        "Multi-Use Cards",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Tags",
+        "Worker Placement"
+      ],
+      "ratings": {
+        "average": 7.38378,
+        "bayesaverage": 7.09462,
+        "usersrated": 19785
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/336986",
+      "note": ""
+    },
+    {
+      "bgg_id": 408724,
+      "name": "Fractal: Beyond the Void",
+      "yearpublished": 2023,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/V-OcmY-s5dS-Ya4x17BPSw__small/img/62iTkqIA7NGjcrmCLOl6ytTqa4Q=/fit-in/200x150/filters:strip_icc()/pic7982361.jpg",
+      "image": "https://cf.geekdo-images.com/V-OcmY-s5dS-Ya4x17BPSw__original/img/W4ymXyU_uLwnYW4fQu7JiLf9Pdg=/0x0/filters:format(jpeg)/pic7982361.jpg",
+      "categories": [
+        "Adventure",
+        "Civilization",
+        "Political",
+        "Science Fiction",
+        "Space Exploration",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Area Movement",
+        "Legacy Game",
+        "Modular Board",
+        "Scenario / Mission / Campaign Game",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "ratings": {
+        "average": 7.5968,
+        "bayesaverage": 5.60303,
+        "usersrated": 156
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/408724",
+      "note": ""
+    },
+    {
+      "bgg_id": 400489,
+      "name": "Galactic Heroes",
+      "yearpublished": 2024,
+      "players": {
+        "min": 3,
+        "max": 7
+      },
+      "playtime": {
+        "min": 10,
+        "max": 45
+      },
+      "thumbnail": "https://cf.geekdo-images.com/ypt1QI6k73XY-XltQZsXRg__small/img/XAVo2mSrjXzNqY7C9aPm5JJmm0c=/fit-in/200x150/filters:strip_icc()/pic8929897.jpg",
+      "image": "https://cf.geekdo-images.com/ypt1QI6k73XY-XltQZsXRg__original/img/l8F_mHKqTFciAsoUAe3nx5_gyjI=/0x0/filters:format(jpeg)/pic8929897.jpg",
+      "categories": [
+        "Deduction",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Deduction",
+        "Traitor Game"
+      ],
+      "ratings": {
+        "average": 4.01739,
+        "bayesaverage": 0,
+        "usersrated": 23
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/400489",
+      "note": ""
+    },
+    {
+      "bgg_id": 286160,
+      "name": "Godspeed",
+      "yearpublished": 2020,
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 45,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/c6PbgOFbLGvP_8Kg12dusg__small/img/VxPz6_vRa-3XrODF6d1hUSTG9VM=/fit-in/200x150/filters:strip_icc()/pic4883601.png",
+      "image": "https://cf.geekdo-images.com/c6PbgOFbLGvP_8Kg12dusg__original/img/-hh-6z-pQu9n4yTUhMaasepWldE=/0x0/filters:format(png)/pic4883601.png",
+      "categories": [
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Auction / Bidding",
+        "Turn Order: Auction",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "ratings": {
+        "average": 7.01215,
+        "bayesaverage": 5.94202,
+        "usersrated": 998
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/286160",
+      "note": ""
+    },
+    {
+      "bgg_id": 232224,
+      "name": "Gutterhead",
+      "yearpublished": 2017,
+      "players": {
+        "min": 4,
+        "max": 16
+      },
+      "playtime": {
+        "min": 30,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/W3cxnBH-4V6uFljbK_ER-g__small/img/awMb3AW2Er6bgpznB2le1Ox9Wz8=/fit-in/200x150/filters:strip_icc()/pic5483948.png",
+      "image": "https://cf.geekdo-images.com/W3cxnBH-4V6uFljbK_ER-g__original/img/_rczGXWOdaPvHBke8x1bA-gPzns=/0x0/filters:format(png)/pic5483948.png",
+      "categories": [
+        "Humor",
+        "Mature / Adult",
+        "Party Game"
+      ],
+      "mechanics": [
+        "Acting",
+        "Line Drawing"
+      ],
+      "ratings": {
+        "average": 6.15434,
+        "bayesaverage": 5.50972,
+        "usersrated": 53
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/232224",
+      "note": ""
+    },
+    {
+      "bgg_id": 341027,
+      "name": "Heroes of Barcadia",
+      "yearpublished": 2022,
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/htK1yU55RTMFIpT2ivdN2w__small/img/CU86GlNl7BN9_b-IIjHmJPnown4=/fit-in/200x150/filters:strip_icc()/pic8505535.jpg",
+      "image": "https://cf.geekdo-images.com/htK1yU55RTMFIpT2ivdN2w__original/img/EISgAqsSLItxmA5OThYYyLG878A=/0x0/filters:format(jpeg)/pic8505535.jpg",
+      "categories": [
+        "Fantasy",
+        "Humor",
+        "Mature / Adult",
+        "Party Game"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Tile Placement"
+      ],
+      "ratings": {
+        "average": 7.40271,
+        "bayesaverage": 5.82823,
+        "usersrated": 617
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/341027",
+      "note": ""
+    },
+    {
+      "bgg_id": 374595,
+      "name": "Kelp: Shark vs Octopus",
+      "yearpublished": 2024,
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 40,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/iMtHHxutEtga5DiZDIbgJg__small/img/4QKru9Jmr46bphmA9uzwnOZve44=/fit-in/200x150/filters:strip_icc()/pic7493386.jpg",
+      "image": "https://cf.geekdo-images.com/iMtHHxutEtga5DiZDIbgJg__original/img/nzgtIPmNuWX65AHNC0sAbo4V2vU=/0x0/filters:format(jpeg)/pic7493386.jpg",
+      "categories": [
+        "Animals",
+        "Bluffing",
+        "Card Game",
+        "Dice",
+        "Environmental"
+      ],
+      "mechanics": [
+        "Area Movement",
+        "Deck, Bag, and Pool Building",
+        "Dice Rolling",
+        "Hidden Movement",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.57306,
+        "bayesaverage": 6.59337,
+        "usersrated": 2842
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/374595",
+      "note": ""
+    },
+    {
+      "bgg_id": 365121,
+      "name": "M.O.R.P.H.O.",
+      "yearpublished": 2023,
+      "players": {
+        "min": 3,
+        "max": 9
+      },
+      "playtime": {
+        "min": 20,
+        "max": 30
+      },
+      "thumbnail": "https://cf.geekdo-images.com/fNyawSVyN43L0bbX3Wfd7w__small/img/YUviImunfgJGgiJMNyVq04i7YQM=/fit-in/200x150/filters:strip_icc()/pic6918225.jpg",
+      "image": "https://cf.geekdo-images.com/fNyawSVyN43L0bbX3Wfd7w__original/img/Y529WFwh8lXrRiTjDFSaKkVjkWs=/0x0/filters:format(jpeg)/pic6918225.jpg",
+      "categories": [
+        "Bluffing",
+        "Card Game",
+        "Deduction",
+        "Party Game"
+      ],
+      "mechanics": [
+        "Alliances",
+        "Hidden Roles",
+        "Player Elimination",
+        "Traitor Game",
+        "Variable Set-up"
+      ],
+      "ratings": {
+        "average": 6.83483,
+        "bayesaverage": 5.54074,
+        "usersrated": 89
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/365121",
+      "note": ""
+    },
+    {
+      "bgg_id": 285774,
+      "name": "Marvel Champions: The Card Game",
+      "yearpublished": 2019,
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/kRvUgYiaOq07kC67ZK5UoQ__small/img/SDNWntiB06KhAINl06CDPkoipDc=/fit-in/200x150/filters:strip_icc()/pic4900321.jpg",
+      "image": "https://cf.geekdo-images.com/kRvUgYiaOq07kC67ZK5UoQ__original/img/cqng0e4S7Cj6j6Sb49-OCggGi-8=/0x0/filters:format(jpeg)/pic4900321.jpg",
+      "categories": [
+        "Card Game",
+        "Collectible Components",
+        "Comic Book / Strip",
+        "Fighting"
+      ],
+      "mechanics": [
+        "Card Play Conflict Resolution",
+        "Cooperative Game",
+        "Deck Construction",
+        "Hand Management",
+        "Interrupts",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Turn Order: Progressive",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "ratings": {
+        "average": 8.10737,
+        "bayesaverage": 7.78922,
+        "usersrated": 26985
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/285774",
+      "note": ""
+    },
+    {
+      "bgg_id": 298047,
+      "name": "Marvel United",
+      "yearpublished": 2020,
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "thumbnail": "https://cf.geekdo-images.com/-19XPXmTn9QyyvqwpcFkBw__small/img/T3jn8ks3g0zLyISTRQkIr0D1WSE=/fit-in/200x150/filters:strip_icc()/pic5231006.jpg",
+      "image": "https://cf.geekdo-images.com/-19XPXmTn9QyyvqwpcFkBw__original/img/zgZcNusSm7mFMP3N6MJvJRe_gKY=/0x0/filters:format(jpeg)/pic5231006.jpg",
+      "categories": [
+        "Card Game",
+        "Comic Book / Strip",
+        "Fighting"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Hand Management",
+        "Modular Board",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.54947,
+        "bayesaverage": 7.17406,
+        "usersrated": 12854
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/298047",
+      "note": ""
+    },
+    {
+      "bgg_id": 181524,
+      "name": "Masmorra: Dungeons of Arcadia",
+      "yearpublished": 2017,
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/OW2Xi0Mm7ZijLghZGJ7xLg__small/img/QKAenxinvreVYn45OQqlFZmpK24=/fit-in/200x150/filters:strip_icc()/pic2869709.png",
+      "image": "https://cf.geekdo-images.com/OW2Xi0Mm7ZijLghZGJ7xLg__original/img/zJv2G0YLsQtbvFP0whBCN_Fbl_4=/0x0/filters:format(png)/pic2869709.png",
+      "categories": [
+        "Adventure",
+        "Dice",
+        "Fantasy",
+        "Miniatures"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Die Icon Resolution",
+        "Modular Board",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.02804,
+        "bayesaverage": 6.28377,
+        "usersrated": 2939
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/181524",
+      "note": ""
+    },
+    {
+      "bgg_id": 145842,
+      "name": "Monopoly Empire",
+      "yearpublished": 2013,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 10,
+        "max": 25
+      },
+      "thumbnail": "https://cf.geekdo-images.com/rgcMIDyts7udwpRp1Q9njQ__small/img/jUKTuOp4tVL9WX2InCxMa_1Yhkc=/fit-in/200x150/filters:strip_icc()/pic5235877.png",
+      "image": "https://cf.geekdo-images.com/rgcMIDyts7udwpRp1Q9njQ__original/img/xTx79-GTA89PNfLz57eLqaNZztM=/0x0/filters:format(png)/pic5235877.png",
+      "categories": [
+        "Economic"
+      ],
+      "mechanics": [
+        "Auction / Bidding",
+        "Roll / Spin and Move",
+        "Set Collection",
+        "Take That"
+      ],
+      "ratings": {
+        "average": 5.58975,
+        "bayesaverage": 5.47083,
+        "usersrated": 874
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/145842",
+      "note": ""
+    },
+    {
+      "bgg_id": 254617,
+      "name": "Monopoly: Cheaters Edition",
+      "yearpublished": 2018,
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 60,
+        "max": 180
+      },
+      "thumbnail": "https://cf.geekdo-images.com/78dZB2GPUrjMXQyOnqZ65Q__small/img/mOJbxy0j7TRHx4epykdoyKNDEOA=/fit-in/200x150/filters:strip_icc()/pic4187117.jpg",
+      "image": "https://cf.geekdo-images.com/78dZB2GPUrjMXQyOnqZ65Q__original/img/alBRJMlFfkJyOo4YyDpGQqO_rkE=/0x0/filters:format(jpeg)/pic4187117.jpg",
+      "categories": [
+        "Economic",
+        "Negotiation"
+      ],
+      "mechanics": [
+        "Auction / Bidding",
+        "Player Elimination",
+        "Push Your Luck",
+        "Roll / Spin and Move",
+        "Set Collection",
+        "Trading"
+      ],
+      "ratings": {
+        "average": 5.04283,
+        "bayesaverage": 5.37088,
+        "usersrated": 603
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/254617",
+      "note": ""
+    },
+    {
+      "bgg_id": 438924,
+      "name": "Moonrakers: Titan Edition",
+      "yearpublished": 2023,
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/ngOiwhdxMXtoVkwavTVsJw__small/img/Tbo3B3jirXXhRKSCSIfI-q995Ok=/fit-in/200x150/filters:strip_icc()/pic9116429.png",
+      "image": "https://cf.geekdo-images.com/ngOiwhdxMXtoVkwavTVsJw__original/img/cnGWAq9NQMPIAtJJuMQfXgfLa2w=/0x0/filters:format(png)/pic9116429.png",
+      "categories": [
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Deck, Bag, and Pool Building",
+        "Negotiation"
+      ],
+      "ratings": {
+        "average": 8.7661,
+        "bayesaverage": 5.55873,
+        "usersrated": 52
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/438924",
+      "note": ""
+    },
+    {
+      "bgg_id": 405923,
+      "name": "Moonrollers",
+      "yearpublished": 2024,
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 45
+      },
+      "thumbnail": "https://cf.geekdo-images.com/dhmWaxXFrlfAt2uW8cS78Q__small/img/vFiBdaCvAJ7nNZeIifU1HlnV9eA=/fit-in/200x150/filters:strip_icc()/pic7851639.png",
+      "image": "https://cf.geekdo-images.com/dhmWaxXFrlfAt2uW8cS78Q__original/img/nOss5bKItGfeZEWd9tF702YQBhQ=/0x0/filters:format(png)/pic7851639.png",
+      "categories": [
+        "Dice",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Open Drafting",
+        "Push Your Luck"
+      ],
+      "ratings": {
+        "average": 7.42891,
+        "bayesaverage": 5.9836,
+        "usersrated": 826
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/405923",
+      "note": ""
+    },
+    {
+      "bgg_id": 342894,
+      "name": "Mythic Mischief",
+      "yearpublished": 2022,
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/B1h4rA9VVLB6-3NxDucMLw__small/img/mP1VC2vQ6H9x-8dRGJtB7a_OGlQ=/fit-in/200x150/filters:strip_icc()/pic6294970.png",
+      "image": "https://cf.geekdo-images.com/B1h4rA9VVLB6-3NxDucMLw__original/img/jJI5CVB2dBH-5kzkiG0Q0dOuFi8=/0x0/filters:format(png)/pic6294970.png",
+      "categories": [
+        "Abstract Strategy",
+        "Fantasy",
+        "Miniatures"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Grid Movement",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.53452,
+        "bayesaverage": 6.28971,
+        "usersrated": 1579
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/342894",
+      "note": ""
+    },
+    {
+      "bgg_id": 343990,
+      "name": "Not Enough Mana",
+      "yearpublished": 2022,
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 60,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/1ecZDxMoOLan2s881H_Asg__small/img/LRwOqlUZ5TZ3xmy8MLKUo_RcDK4=/fit-in/200x150/filters:strip_icc()/pic6317130.jpg",
+      "image": "https://cf.geekdo-images.com/1ecZDxMoOLan2s881H_Asg__original/img/RPEsDR8epATu841Lpkt9hlduwmU=/0x0/filters:format(jpeg)/pic6317130.jpg",
+      "categories": [
+        "Card Game",
+        "Fantasy",
+        "Humor",
+        "Mature / Adult",
+        "Party Game",
+        "Print & Play"
+      ],
+      "mechanics": [
+        "Events",
+        "Hand Management",
+        "Negotiation",
+        "Player Elimination",
+        "Push Your Luck"
+      ],
+      "ratings": {
+        "average": 7.57249,
+        "bayesaverage": 5.6562,
+        "usersrated": 269
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/343990",
+      "note": ""
+    },
+    {
+      "bgg_id": 30549,
+      "name": "Pandemic",
+      "yearpublished": 2008,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "thumbnail": "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__small/img/oqViRj6nVxK3m36NluTxU1PZkrk=/fit-in/200x150/filters:strip_icc()/pic1534148.jpg",
+      "image": "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__original/img/IsrvRLpUV1TEyZsO5rC-btXaPz0=/0x0/filters:format(jpeg)/pic1534148.jpg",
+      "categories": [
+        "Medical",
+        "Travel"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Chaining",
+        "Contracts",
+        "Cooperative Game",
+        "Events",
+        "Hand Management",
+        "Multi-Use Cards",
+        "Point to Point Movement",
+        "Set Collection",
+        "Simulation",
+        "Tags",
+        "Trading",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "ratings": {
+        "average": 7.51779,
+        "bayesaverage": 7.4092,
+        "usersrated": 133145
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/30549",
+      "note": ""
+    },
+    {
+      "bgg_id": 312786,
+      "name": "Poetry for Neanderthals",
+      "yearpublished": 2020,
+      "players": {
+        "min": 2,
+        "max": 12
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "thumbnail": "https://cf.geekdo-images.com/CDlBjXSPT-3Zyrj8ENBkvQ__small/img/0ON18UcLepuwPLhwkRtRUjhvAZ8=/fit-in/200x150/filters:strip_icc()/pic5702797.jpg",
+      "image": "https://cf.geekdo-images.com/CDlBjXSPT-3Zyrj8ENBkvQ__original/img/FgAyx5Q1pe7TyHsYskhbab_S_os=/0x0/filters:format(jpeg)/pic5702797.jpg",
+      "categories": [
+        "Humor",
+        "Party Game",
+        "Prehistoric",
+        "Real-time",
+        "Word Game"
+      ],
+      "mechanics": [
+        "Communication Limits",
+        "Real-Time",
+        "Team-Based Game"
+      ],
+      "ratings": {
+        "average": 6.65607,
+        "bayesaverage": 6.13756,
+        "usersrated": 3351
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/312786",
+      "note": ""
+    },
+    {
+      "bgg_id": 341433,
+      "name": "Potato Pirates 3: Battlechips",
+      "yearpublished": 2022,
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/bxVP6pew5Nfx5xzwtv4GJA__small/img/q7VnQqSV7LIMCTzEiGG9pBkwlZQ=/fit-in/200x150/filters:strip_icc()/pic6256638.png",
+      "image": "https://cf.geekdo-images.com/bxVP6pew5Nfx5xzwtv4GJA__original/img/TFMmag6pfCgYzvVrlqWqnNmQySA=/0x0/filters:format(png)/pic6256638.png",
+      "categories": [
+        "Card Game",
+        "Children&#039;s Game",
+        "Educational",
+        "Pirates"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Market",
+        "Move Through Deck",
+        "Open Drafting",
+        "Player Elimination",
+        "Roles with Asymmetric Information",
+        "Solo / Solitaire Game",
+        "Take That",
+        "Turn Order: Stat-Based",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 6.6225,
+        "bayesaverage": 5.51337,
+        "usersrated": 60
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/341433",
+      "note": ""
+    },
+    {
+      "bgg_id": 297139,
+      "name": "Potato Pirates: Enter the Spudnet",
+      "yearpublished": 2020,
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/dlEMuyMk7rg3MQawRW-40g__small/img/g195FqVMIa9EDiZ1Dta0UjhJf9w=/fit-in/200x150/filters:strip_icc()/pic5152918.png",
+      "image": "https://cf.geekdo-images.com/dlEMuyMk7rg3MQawRW-40g__original/img/eTX3lNk9Is9pPFaXwXCqji-AFpk=/0x0/filters:format(png)/pic5152918.png",
+      "categories": [
+        "Children&#039;s Game",
+        "Dice",
+        "Educational",
+        "Nautical",
+        "Party Game",
+        "Pirates",
+        "Transportation",
+        "Travel"
+      ],
+      "mechanics": [
+        "Action / Event",
+        "Card Play Conflict Resolution",
+        "Different Dice Movement",
+        "Multiple Maps",
+        "Open Drafting",
+        "Player Elimination"
+      ],
+      "ratings": {
+        "average": 6.62292,
+        "bayesaverage": 5.53675,
+        "usersrated": 96
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/297139",
+      "note": ""
+    },
+    {
+      "bgg_id": 284998,
+      "name": "Reigns: The Council",
+      "yearpublished": 2020,
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 40
+      },
+      "thumbnail": "https://cf.geekdo-images.com/Ctj-bItNg-Yxi3b8X6HiZw__small/img/jtKBaqU4vmFgKcdp4ux-zHRF2R8=/fit-in/200x150/filters:strip_icc()/pic4860839.jpg",
+      "image": "https://cf.geekdo-images.com/Ctj-bItNg-Yxi3b8X6HiZw__original/img/Onb4VW68YpORi8DlqidlhwirbHY=/0x0/filters:format(jpeg)/pic4860839.jpg",
+      "categories": [
+        "Bluffing",
+        "Card Game",
+        "Humor",
+        "Medieval",
+        "Party Game",
+        "Political",
+        "Video Game Theme"
+      ],
+      "mechanics": [
+        "Negotiation",
+        "Role Playing",
+        "Storytelling"
+      ],
+      "ratings": {
+        "average": 6.82229,
+        "bayesaverage": 5.62134,
+        "usersrated": 250
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/284998",
+      "note": ""
+    },
+    {
+      "bgg_id": 205896,
+      "name": "Rising Sun",
+      "yearpublished": 2018,
+      "players": {
+        "min": 3,
+        "max": 5
+      },
+      "playtime": {
+        "min": 90,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/iwevA6XmiNLHn1QnGUucqw__small/img/UNKv6MWzJUAwhhP7-ng6HoinRa8=/fit-in/200x150/filters:strip_icc()/pic3880340.jpg",
+      "image": "https://cf.geekdo-images.com/iwevA6XmiNLHn1QnGUucqw__original/img/pKJ1XyLN4hvHim5eRj2VJHijv1E=/0x0/filters:format(jpeg)/pic3880340.jpg",
+      "categories": [
+        "Bluffing",
+        "Fantasy",
+        "Mythology",
+        "Negotiation",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Action Drafting",
+        "Alliances",
+        "Area Majority / Influence",
+        "Area Movement",
+        "Auction: Sealed Bid",
+        "Betting and Bluffing",
+        "Closed Drafting",
+        "End Game Bonuses",
+        "Follow",
+        "Force Commitment",
+        "Negotiation",
+        "Set Collection",
+        "Simultaneous Action Selection",
+        "Take That",
+        "Variable Phase Order",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "ratings": {
+        "average": 7.75573,
+        "bayesaverage": 7.45329,
+        "usersrated": 22924
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/205896",
+      "note": ""
+    },
+    {
+      "bgg_id": 360692,
+      "name": "Septima",
+      "yearpublished": 2023,
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 50,
+        "max": 100
+      },
+      "thumbnail": "https://cf.geekdo-images.com/TEx3V_COEF6Vik8y3Ax3hA__small/img/UbxZLr-fIWfThg2dp7r_7M5MqC8=/fit-in/200x150/filters:strip_icc()/pic6810993.jpg",
+      "image": "https://cf.geekdo-images.com/TEx3V_COEF6Vik8y3Ax3hA__original/img/9Yz9xcfNSUBYLzX8mCYuYhzDJSo=/0x0/filters:format(jpeg)/pic6810993.jpg",
+      "categories": [
+        "Fantasy",
+        "Mythology"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Simultaneous Action Selection",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.36866,
+        "bayesaverage": 6.5556,
+        "usersrated": 3398
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/360692",
+      "note": ""
+    },
+    {
+      "bgg_id": 257305,
+      "name": "SHASN",
+      "yearpublished": 2021,
+      "players": {
+        "min": 3,
+        "max": 5
+      },
+      "playtime": {
+        "min": 90,
+        "max": 120
+      },
+      "thumbnail": "https://cf.geekdo-images.com/REV41XH_xrquh9Unl_M2DA__small/img/aK8y54J0YAwe_1oiTV0efySYc9E=/fit-in/200x150/filters:strip_icc()/pic4745701.png",
+      "image": "https://cf.geekdo-images.com/REV41XH_xrquh9Unl_M2DA__original/img/y-0CJY99f1YMYBmRVNJEqpiACDY=/0x0/filters:format(png)/pic4745701.png",
+      "categories": [
+        "Negotiation",
+        "Political",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Alliances",
+        "Area Majority / Influence",
+        "Set Collection",
+        "Simulation",
+        "Take That",
+        "Trading",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.34833,
+        "bayesaverage": 5.8242,
+        "usersrated": 849
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/257305",
+      "note": ""
+    },
+    {
+      "bgg_id": 157969,
+      "name": "Sheriff of Nottingham",
+      "yearpublished": 2014,
+      "players": {
+        "min": 3,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/BBgLFKUzr6tcKtlIM2JSFw__small/img/JD5L_XrtkaKINUj8ILZqFMGcTsE=/fit-in/200x150/filters:strip_icc()/pic2075830.jpg",
+      "image": "https://cf.geekdo-images.com/BBgLFKUzr6tcKtlIM2JSFw__original/img/fll2MuTBPVKb7fyBJ8D-4_c1XHM=/0x0/filters:format(jpeg)/pic2075830.jpg",
+      "categories": [
+        "Bluffing",
+        "Card Game",
+        "Humor",
+        "Medieval",
+        "Negotiation",
+        "Novel-based",
+        "Party Game"
+      ],
+      "mechanics": [
+        "Betting and Bluffing",
+        "Bribery",
+        "Hand Management",
+        "Negotiation",
+        "Open Drafting",
+        "Role Playing",
+        "Set Collection"
+      ],
+      "ratings": {
+        "average": 7.05026,
+        "bayesaverage": 6.91232,
+        "usersrated": 37480
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/157969",
+      "note": ""
+    },
+    {
+      "bgg_id": 23540,
+      "name": "Shikoku 1889",
+      "yearpublished": 2004,
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 180,
+        "max": 240
+      },
+      "thumbnail": "https://cf.geekdo-images.com/KWzepkM_pNKLOCdDDJLg0g__small/img/vU5AOCjGnQ1VvuM8p2hHqrUFfwU=/fit-in/200x150/filters:strip_icc()/pic6535570.jpg",
+      "image": "https://cf.geekdo-images.com/KWzepkM_pNKLOCdDDJLg0g__original/img/gTkkZV8qMZ2p4IxzFBVqnOeCb0w=/0x0/filters:format(jpeg)/pic6535570.jpg",
+      "categories": [
+        "Economic",
+        "Trains",
+        "Transportation"
+      ],
+      "mechanics": [
+        "Auction / Bidding",
+        "Hexagon Grid",
+        "Market",
+        "Network and Route Building",
+        "Ownership",
+        "Stock Holding",
+        "Tile Placement",
+        "Victory Points as a Resource"
+      ],
+      "ratings": {
+        "average": 7.98812,
+        "bayesaverage": 6.80796,
+        "usersrated": 2536
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/23540",
+      "note": ""
+    },
+    {
+      "bgg_id": 257193,
+      "name": "Starcadia Quest",
+      "yearpublished": 2020,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/UzOSmldhPAaIWEpFK-upbw__small/img/8N9Q6wK6ygNZ78yZxlBvrmQkuic=/fit-in/200x150/filters:strip_icc()/pic4258177.png",
+      "image": "https://cf.geekdo-images.com/UzOSmldhPAaIWEpFK-upbw__original/img/4sSvK6A-U2ZlLnxU1RgQXzWZMOg=/0x0/filters:format(png)/pic4258177.png",
+      "categories": [
+        "Adventure",
+        "Fighting",
+        "Miniatures",
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Grid Movement",
+        "Modular Board",
+        "Scenario / Mission / Campaign Game",
+        "Variable Phase Order",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.33073,
+        "bayesaverage": 6.03125,
+        "usersrated": 1032
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/257193",
+      "note": ""
+    },
+    {
+      "bgg_id": 311332,
+      "name": "Sugar Heist",
+      "yearpublished": 2020,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/1b4TqoCd6qsAjGKYU9jf7g__small/img/ckTfugNzgA9fN4F0SyJnBZkA7ak=/fit-in/200x150/filters:strip_icc()/pic5799241.jpg",
+      "image": "https://cf.geekdo-images.com/1b4TqoCd6qsAjGKYU9jf7g__original/img/hHFudaQEZu-qanWyCHk6kYtkTlE=/0x0/filters:format(jpeg)/pic5799241.jpg",
+      "categories": [
+        "Card Game",
+        "Fighting",
+        "Humor",
+        "Negotiation"
+      ],
+      "mechanics": [
+        "Action / Event",
+        "Events",
+        "Hand Management",
+        "Matching",
+        "Set Collection",
+        "Trading"
+      ],
+      "ratings": {
+        "average": 6.60455,
+        "bayesaverage": 5.5104,
+        "usersrated": 44
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/311332",
+      "note": ""
+    },
+    {
+      "bgg_id": 352735,
+      "name": "The Big Shuffle: A Film Noir Card Game",
+      "yearpublished": 2022,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/bKQFnngL11eWc3ASRwCMYQ__small/img/95OXTSiBy913oPtnN1gEeICXAqI=/fit-in/200x150/filters:strip_icc()/pic6562256.png",
+      "image": "https://cf.geekdo-images.com/bKQFnngL11eWc3ASRwCMYQ__original/img/ZOdtxO-CaHiLs72n4_QmpwX_OJM=/0x0/filters:format(png)/pic6562256.png",
+      "categories": [
+        "Card Game",
+        "Movies / TV / Radio theme",
+        "Negotiation"
+      ],
+      "mechanics": [
+        "Interrupts",
+        "Move Through Deck",
+        "Negotiation",
+        "Role Playing",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 6.55556,
+        "bayesaverage": 0,
+        "usersrated": 27
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/352735",
+      "note": ""
+    },
+    {
+      "bgg_id": 359927,
+      "name": "The Breach",
+      "yearpublished": 2024,
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/IUgKiQDJO3BYVcOrGk2mMA__small/img/IzoEIsF3YUR-_aaCfiwlJP5iX_4=/fit-in/200x150/filters:strip_icc()/pic6784134.png",
+      "image": "https://cf.geekdo-images.com/IUgKiQDJO3BYVcOrGk2mMA__original/img/4QvyHghGh-yJw-Hm-FQ-RyhA_MY=/0x0/filters:format(png)/pic6784134.png",
+      "categories": [
+        "Exploration",
+        "Miniatures",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Modular Board",
+        "Set Collection",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.98036,
+        "bayesaverage": 5.80895,
+        "usersrated": 507
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/359927",
+      "note": ""
+    },
+    {
+      "bgg_id": 329543,
+      "name": "The Presence",
+      "yearpublished": 2025,
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/3huDD_WNkRu6IhXVnb1LNw__small/img/0Ww5vb3Y0kGCB05jUCaTfZ-B_Lw=/fit-in/200x150/filters:strip_icc()/pic8767855.png",
+      "image": "https://cf.geekdo-images.com/3huDD_WNkRu6IhXVnb1LNw__original/img/KZk1xRClHACM6alW4wnIwNCuVVw=/0x0/filters:format(png)/pic8767855.png",
+      "categories": [
+        "Card Game",
+        "Deduction",
+        "Horror",
+        "Mature / Adult",
+        "Murder / Mystery"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Area Movement",
+        "Deduction",
+        "Finale Ending",
+        "Hand Management",
+        "Hidden Roles",
+        "Memory",
+        "Player Elimination",
+        "Team-Based Game",
+        "Variable Phase Order",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 8.05396,
+        "bayesaverage": 5.60143,
+        "usersrated": 119
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/329543",
+      "note": ""
+    },
+    {
+      "bgg_id": 295293,
+      "name": "The Thing: The Boardgame",
+      "yearpublished": 2022,
+      "players": {
+        "min": 1,
+        "max": 8
+      },
+      "playtime": {
+        "min": 60,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/dJCtZr6_dFDIg4o8tMYqCA__small/img/Pp3ikjTGmVjlkcJqS98WZY8ECSQ=/fit-in/200x150/filters:strip_icc()/pic5089905.jpg",
+      "image": "https://cf.geekdo-images.com/dJCtZr6_dFDIg4o8tMYqCA__original/img/rdMH8ojR4tNxJzLo7zKOktOyEmk=/0x0/filters:format(jpeg)/pic5089905.jpg",
+      "categories": [
+        "Deduction",
+        "Horror",
+        "Movies / TV / Radio theme",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Hidden Roles",
+        "Semi-Cooperative Game",
+        "Traitor Game",
+        "Voting"
+      ],
+      "ratings": {
+        "average": 7.6324,
+        "bayesaverage": 6.6258,
+        "usersrated": 3004
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/295293",
+      "note": ""
+    },
+    {
+      "bgg_id": 288584,
+      "name": "Think Fast",
+      "yearpublished": 2019,
+      "players": {
+        "min": 3,
+        "max": 13
+      },
+      "playtime": {
+        "min": 15,
+        "max": 40
+      },
+      "thumbnail": "https://cf.geekdo-images.com/q9vZjqgqAkzYR0I6cz3U-Q__small/img/oa7ra7o2cir_APXawHQuN97zhoE=/fit-in/200x150/filters:strip_icc()/pic4945313.jpg",
+      "image": "https://cf.geekdo-images.com/q9vZjqgqAkzYR0I6cz3U-Q__original/img/1ukPyZiM6o5zp5HeUzNJ0CYPPdg=/0x0/filters:format(jpeg)/pic4945313.jpg",
+      "categories": [
+        "Party Game",
+        "Trivia"
+      ],
+      "mechanics": [
+        "Memory"
+      ],
+      "ratings": {
+        "average": 6.925,
+        "bayesaverage": 0,
+        "usersrated": 24
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/288584",
+      "note": ""
+    },
+    {
+      "bgg_id": 14996,
+      "name": "Ticket to Ride: Europe",
+      "yearpublished": 2005,
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/0K1AOciqlMVUWFPLTJSiww__small/img/RDvu2FvsYVVH8icp1VsilUlqUGI=/fit-in/200x150/filters:strip_icc()/pic66668.jpg",
+      "image": "https://cf.geekdo-images.com/0K1AOciqlMVUWFPLTJSiww__original/img/O37sCRSJLq4S8EpCxFDNVsNBuxE=/0x0/filters:format(jpeg)/pic66668.jpg",
+      "categories": [
+        "Trains"
+      ],
+      "mechanics": [
+        "Connections",
+        "Contracts",
+        "End Game Bonuses",
+        "Hand Management",
+        "Network and Route Building",
+        "Open Drafting",
+        "Push Your Luck",
+        "Set Collection"
+      ],
+      "ratings": {
+        "average": 7.52482,
+        "bayesaverage": 7.39706,
+        "usersrated": 83492
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/14996",
+      "note": ""
+    },
+    {
+      "bgg_id": 403000,
+      "name": "Traitors Aboard",
+      "yearpublished": 2023,
+      "players": {
+        "min": 3,
+        "max": 8
+      },
+      "playtime": {
+        "min": 10,
+        "max": 30
+      },
+      "thumbnail": "https://cf.geekdo-images.com/i7-FRhbtbBMHSHFWIYZ0aw__small/img/9j044tqfFcG1A1KQHPIun-NR6OM=/fit-in/200x150/filters:strip_icc()/pic7823479.png",
+      "image": "https://cf.geekdo-images.com/i7-FRhbtbBMHSHFWIYZ0aw__original/img/XSPs8ADWz6CiNR8d9D6MJqt1Utg=/0x0/filters:format(png)/pic7823479.png",
+      "categories": [
+        "Bluffing",
+        "Card Game",
+        "Deduction",
+        "Party Game",
+        "Pirates"
+      ],
+      "mechanics": [
+        "Alliances",
+        "Hidden Roles",
+        "Player Elimination",
+        "Role Playing",
+        "Take That",
+        "Team-Based Game",
+        "Traitor Game"
+      ],
+      "ratings": {
+        "average": 6.75321,
+        "bayesaverage": 5.65832,
+        "usersrated": 475
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/403000",
+      "note": ""
+    },
+    {
+      "bgg_id": 290484,
+      "name": "Unsettled",
+      "yearpublished": 2021,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 90
+      },
+      "thumbnail": "https://cf.geekdo-images.com/ldAjb0-puj6iiMZO0xuJtw__small/img/KX2h7qhPJLV94t8vBkHUO1CjpOE=/fit-in/200x150/filters:strip_icc()/pic5106065.jpg",
+      "image": "https://cf.geekdo-images.com/ldAjb0-puj6iiMZO0xuJtw__original/img/kkWT405tYN-PpRDL5oLjJVok19M=/0x0/filters:format(jpeg)/pic5106065.jpg",
+      "categories": [
+        "Game System",
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Action Retrieval",
+        "Cooperative Game",
+        "Modular Board",
+        "Scenario / Mission / Campaign Game",
+        "Tech Trees / Tech Tracks",
+        "Variable Set-up"
+      ],
+      "ratings": {
+        "average": 8.07319,
+        "bayesaverage": 7.01897,
+        "usersrated": 3661
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/290484",
+      "note": ""
+    },
+    {
+      "bgg_id": 234190,
+      "name": "Unstable Unicorns",
+      "yearpublished": 2017,
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 30,
+        "max": 60
+      },
+      "thumbnail": "https://cf.geekdo-images.com/8_5xvpsrrX5JVzO7eBLSgw__small/img/fV4UWCHC1ImGFUN7lcJju9K8_zo=/fit-in/200x150/filters:strip_icc()/pic3912914.jpg",
+      "image": "https://cf.geekdo-images.com/8_5xvpsrrX5JVzO7eBLSgw__original/img/XkKaT-quh8xGl2uHD5zULSWTpuM=/0x0/filters:format(jpeg)/pic3912914.jpg",
+      "categories": [
+        "Card Game",
+        "Humor",
+        "Party Game"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Set Collection",
+        "Take That"
+      ],
+      "ratings": {
+        "average": 6.22954,
+        "bayesaverage": 5.94402,
+        "usersrated": 11198
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/234190",
+      "note": ""
+    },
+    {
+      "bgg_id": 245659,
+      "name": "Vampire: The Masquerade – Vendetta",
+      "yearpublished": 2020,
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "thumbnail": "https://cf.geekdo-images.com/V3Ff1dIMh6QrU2IeZabr_g__small/img/BPmJ2azFAI6-MIHQ9Vg7n4bnsc8=/fit-in/200x150/filters:strip_icc()/pic4854194.png",
+      "image": "https://cf.geekdo-images.com/V3Ff1dIMh6QrU2IeZabr_g__original/img/foDuQtg-CH-JXOW952qvgEo4eZ0=/0x0/filters:format(png)/pic4854194.png",
+      "categories": [
+        "Bluffing",
+        "Card Game",
+        "Horror"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Auction / Bidding",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 7.17173,
+        "bayesaverage": 6.03419,
+        "usersrated": 1225
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/245659",
+      "note": ""
+    },
+    {
+      "bgg_id": 318474,
+      "name": "Who Goes There? 2nd Edition",
+      "yearpublished": 2021,
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 110,
+        "max": 110
+      },
+      "thumbnail": "https://cf.geekdo-images.com/RuMJrVl3o9Ks87J2c-Nj9g__small/img/ODzoDybIsvbPZZIPEFL1oW_glJw=/fit-in/200x150/filters:strip_icc()/pic8314946.png",
+      "image": "https://cf.geekdo-images.com/RuMJrVl3o9Ks87J2c-Nj9g__original/img/b9jB9ZjM2av6HfYTDQxjMhjzI9c=/0x0/filters:format(png)/pic8314946.png",
+      "categories": [
+        "Horror",
+        "Novel-based",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Open Drafting",
+        "Role Playing",
+        "Traitor Game"
+      ],
+      "ratings": {
+        "average": 7.73306,
+        "bayesaverage": 5.77151,
+        "usersrated": 349
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/318474",
+      "note": ""
+    },
+    {
+      "bgg_id": 263178,
+      "name": "Who Goes There? Deluxe Edition",
+      "yearpublished": 2018,
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 110,
+        "max": 110
+      },
+      "thumbnail": "https://cf.geekdo-images.com/jwqbFowMs5_yIw0W3rlLFw__small/img/cRrbubL9cSbJ4-ZV2k1Yq1N0C60=/fit-in/200x150/filters:strip_icc()/pic4455289.jpg",
+      "image": "https://cf.geekdo-images.com/jwqbFowMs5_yIw0W3rlLFw__original/img/v0SrjOwQBM89dKkxzJOhuSMQvM8=/0x0/filters:format(jpeg)/pic4455289.jpg",
+      "categories": [
+        "Novel-based",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Open Drafting",
+        "Role Playing"
+      ],
+      "ratings": {
+        "average": 7.57577,
+        "bayesaverage": 5.67609,
+        "usersrated": 227
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/263178",
+      "note": ""
+    },
+    {
+      "bgg_id": 427469,
+      "name": "Who Murdered the Turtle?",
+      "yearpublished": 2025,
+      "players": {
+        "min": 4,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 50
+      },
+      "thumbnail": "https://cf.geekdo-images.com/TDf8BNRZ1ygFBFQoI7b01Q__small/img/Q7pl104cHf1BzpvhUOHCoUZIKkw=/fit-in/200x150/filters:strip_icc()/pic8385362.png",
+      "image": "https://cf.geekdo-images.com/TDf8BNRZ1ygFBFQoI7b01Q__original/img/XH3xrBrgq-gmFC5c_C2xeTFp8SQ=/0x0/filters:format(png)/pic8385362.png",
+      "categories": [
+        "Animals",
+        "Card Game",
+        "Humor",
+        "Murder / Mystery",
+        "Party Game"
+      ],
+      "mechanics": [
+        "Betting and Bluffing",
+        "Deduction",
+        "Hand Management",
+        "Move Through Deck",
+        "Role Playing",
+        "Semi-Cooperative Game",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 6.15385,
+        "bayesaverage": 0,
+        "usersrated": 13
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/427469",
+      "note": ""
+    },
+    {
+      "bgg_id": 227935,
+      "name": "Wonderland&#039;s War",
+      "yearpublished": 2022,
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 45,
+        "max": 125
+      },
+      "thumbnail": "https://cf.geekdo-images.com/bUbrvlY6Dw1cdb-sNrnkew__small/img/Uy_FkD9PPC4Z_0a00fQHPrZPyno=/fit-in/200x150/filters:strip_icc()/pic5188761.jpg",
+      "image": "https://cf.geekdo-images.com/bUbrvlY6Dw1cdb-sNrnkew__original/img/KcU-Srht_4xyLQ69ZjFcFKEOfMc=/0x0/filters:format(jpeg)/pic5188761.jpg",
+      "categories": [
+        "Fantasy",
+        "Novel-based"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Deck, Bag, and Pool Building",
+        "Dice Rolling",
+        "Open Drafting",
+        "Push Your Luck",
+        "Rondel",
+        "Variable Player Powers"
+      ],
+      "ratings": {
+        "average": 8.03953,
+        "bayesaverage": 7.49033,
+        "usersrated": 9875
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/227935",
+      "note": ""
+    },
+    {
+      "bgg_id": 276997,
+      "name": "X-ODUS: Rise of the Corruption",
+      "yearpublished": 2020,
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 150
+      },
+      "thumbnail": "https://cf.geekdo-images.com/Lq3uyXLAkCD56UMxuAtqgg__small/img/JhH7DWvgnR9WPJAX_hFEMjgf5m8=/fit-in/200x150/filters:strip_icc()/pic4718566.jpg",
+      "image": "https://cf.geekdo-images.com/Lq3uyXLAkCD56UMxuAtqgg__original/img/IOv5eZYkwewEBIazUujigSXCiYk=/0x0/filters:format(jpeg)/pic4718566.jpg",
+      "categories": [
+        "Adventure",
+        "Exploration",
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Hexagon Grid",
+        "Modular Board",
+        "Role Playing"
+      ],
+      "ratings": {
+        "average": 7.70203,
+        "bayesaverage": 5.88608,
+        "usersrated": 638
+      },
+      "bgg_url": "https://boardgamegeek.com/boardgame/276997",
+      "note": ""
     }
   ]
 }

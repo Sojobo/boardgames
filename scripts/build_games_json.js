@@ -71,31 +71,56 @@ async function sleep(ms) {
 // We'll retry a few times if the response doesn't contain items.
 async function fetchBGGThingXML(ids) {
     const token = process.env.BGG_TOKEN;
-    if (!token) {
-        throw new Error("Missing BGG_TOKEN env var. Set it locally or in GitHub Secrets.");
+    if (!token) throw new Error("Missing BGG_TOKEN env var.");
+
+    const buildUrl = (list) =>
+        `https://boardgamegeek.com/xmlapi2/thing?id=${list.join(",")}&stats=1`;
+
+    async function tryFetch(list) {
+        const url = buildUrl(list);
+
+        for (let attempt = 1; attempt <= 6; attempt++) {
+            const res = await fetch(url, {
+                headers: {
+                    "User-Agent": "boardgame-shelf-github-pages/1.0 (personal project)",
+                    "Accept": "application/xml,text/xml;q=0.9,*/*;q=0.8",
+                    "Authorization": `Bearer ${token}`,
+                },
+            });
+
+            const text = await res.text();
+            const snippet = text.slice(0, 200).replace(/\s+/g, " ");
+
+            // OK responses (including "total=0" cases)
+            if (text.includes("<items")) return text;
+
+            // Queueing / throttling cases
+            if (res.status === 202 || res.status === 429 || res.status === 502 || res.status === 503) {
+                await sleep(1000 * attempt);
+                continue;
+            }
+
+            // If BGG says "bad request", split the list and try smaller batches
+            if (res.status === 400 && list.length > 1) {
+                console.warn(`BGG 400 for ${list.length} ids; splitting batch. urlLength=${url.length} snippet="${snippet}"`);
+                const mid = Math.ceil(list.length / 2);
+                const left = await tryFetch(list.slice(0, mid));
+                const right = await tryFetch(list.slice(mid));
+                // Return concatenated XML; caller will parse <item> blocks from it
+                return left + "\n" + right;
+            }
+
+            console.warn(
+                `BGG unexpected response (attempt ${attempt}/6) status=${res.status} urlLength=${url.length} snippet="${snippet}"`
+            );
+            await sleep(1000 * attempt);
+        }
+
+        throw new Error(`BGG API did not return usable XML for ids=[${list.join(",")}].`);
     }
 
-    const url = `https://boardgamegeek.com/xmlapi2/thing?id=${ids.join(",")}&stats=1`;
-
-    for (let attempt = 1; attempt <= 8; attempt++) {
-        const res = await fetch(url, {
-            headers: {
-                "User-Agent": "boardgame-shelf-github-pages/1.0 (personal project)",
-                "Accept": "application/xml,text/xml;q=0.9,*/*;q=0.8",
-                "Authorization": `Bearer ${token}`,
-            },
-        });
-
-        const text = await res.text();
-        if (text.includes("<items")) return text;
-
-        console.warn(`BGG unexpected response (attempt ${attempt}/8) status=${res.status}`);
-        await sleep(1200 * attempt);
-    }
-
-    throw new Error("BGG API did not return usable XML after retries.");
+    return await tryFetch(ids);
 }
-
 
 // Minimal XML extraction using string/regex (good enough for BGG’s predictable XML).
 function getAttr(tagText, attr) {
@@ -216,11 +241,14 @@ async function main() {
     const yamlText = fs.readFileSync(YAML_PATH, "utf8");
     const { games } = parseSimpleYaml(yamlText);
 
-    const ids = games.map((g) => g.bgg_id).filter(Boolean);
+    const ids = games
+        .map((g) => Number(g.bgg_id))
+        .filter((n) => Number.isInteger(n) && n > 0);
+
     if (!ids.length) throw new Error("No bgg_id entries found in games.yaml");
 
     // BGG allows multiple IDs in one call; keep it modest in chunks.
-    const chunkSize = 30;
+    const chunkSize = 10;
     const parsedById = new Map();
 
     for (let i = 0; i < ids.length; i += chunkSize) {
