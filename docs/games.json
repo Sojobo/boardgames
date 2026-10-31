@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T04:26:00.479Z",
+  "generated_at": "2026-10-31T04:22:02.514Z",
   "source": "BoardGameGeek XMLAPI2 /thing?stats=1",
   "games": [
     {
@@ -30,8 +30,8 @@
         "Voting"
       ],
       "ratings": {
-        "average": 6.98393,
-        "bayesaverage": 5.85003,
+        "average": 6.98246,
+        "bayesaverage": 5.84955,
         "usersrated": 1022
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/277670",
@@ -156,9 +156,9 @@
         "Variable Player Powers"
       ],
       "ratings": {
-        "average": 8.11619,
-        "bayesaverage": 7.88845,
-        "usersrated": 48378
+        "average": 8.11611,
+        "bayesaverage": 7.88833,
+        "usersrated": 48381
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/205637",
       "note": ""
@@ -195,9 +195,9 @@
         "Variable Player Powers"
       ],
       "ratings": {
-        "average": 7.42923,
-        "bayesaverage": 6.68023,
-        "usersrated": 4601
+        "average": 7.42922,
+        "bayesaverage": 6.68011,
+        "usersrated": 4600
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/281549",
       "note": "",
@@ -279,9 +279,9 @@
         "Variable Set-up"
       ],
       "ratings": {
-        "average": 8.55828,
-        "bayesaverage": 8.39051,
-        "usersrated": 60779
+        "average": 8.55792,
+        "bayesaverage": 8.39043,
+        "usersrated": 60796
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/224517",
       "note": ""
@@ -391,9 +391,9 @@
         "Variable Set-up"
       ],
       "ratings": {
-        "average": 7.09012,
-        "bayesaverage": 6.90117,
-        "usersrated": 145099
+        "average": 7.09023,
+        "bayesaverage": 6.90114,
+        "usersrated": 145118
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/13",
       "note": ""
@@ -427,9 +427,9 @@
         "Worker Placement"
       ],
       "ratings": {
-        "average": 7.26429,
-        "bayesaverage": 6.70733,
-        "usersrated": 5430
+        "average": 7.26414,
+        "bayesaverage": 6.7073,
+        "usersrated": 5431
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/143515",
       "note": "",
@@ -464,9 +464,9 @@
         "Team-Based Game"
       ],
       "ratings": {
-        "average": 7.52231,
-        "bayesaverage": 7.42618,
-        "usersrated": 106180
+        "average": 7.52226,
+        "bayesaverage": 7.42616,
+        "usersrated": 106198
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/178900",
       "note": ""
@@ -504,8 +504,8 @@
         "Worker Placement with Dice Workers"
       ],
       "ratings": {
-        "average": 7.59086,
-        "bayesaverage": 7.24585,
+        "average": 7.59076,
+        "bayesaverage": 7.24576,
         "usersrated": 13137
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/245638",
@@ -587,8 +587,8 @@
       ],
       "ratings": {
         "average": 7.50519,
-        "bayesaverage": 7.31141,
-        "usersrated": 35290
+        "bayesaverage": 7.31142,
+        "usersrated": 35292
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/39463",
       "note": ""
@@ -621,8 +621,8 @@
       ],
       "ratings": {
         "average": 7.73985,
-        "bayesaverage": 6.78392,
-        "usersrated": 3716
+        "bayesaverage": 6.78422,
+        "usersrated": 3718
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/393429",
       "note": "",
@@ -707,9 +707,9 @@
         "Variable Player Powers"
       ],
       "ratings": {
-        "average": 8.08505,
+        "average": 8.08548,
         "bayesaverage": 6.55589,
-        "usersrated": 2121
+        "usersrated": 2122
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/348220",
       "note": "",
@@ -739,9 +739,9 @@
         "Hidden Roles"
       ],
       "ratings": {
-        "average": 6.90887,
-        "bayesaverage": 6.14699,
-        "usersrated": 2138
+        "average": 6.91163,
+        "bayesaverage": 6.14818,
+        "usersrated": 2137
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/262547",
       "note": ""
@@ -773,9 +773,9 @@
         "Take That"
       ],
       "ratings": {
-        "average": 6.75195,
+        "average": 6.75314,
         "bayesaverage": 6.03597,
-        "usersrated": 2738
+        "usersrated": 2739
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/324413",
       "note": "",
@@ -815,9 +815,9 @@
         "Variable Set-up"
       ],
       "ratings": {
-        "average": 8.47897,
-        "bayesaverage": 7.32637,
-        "usersrated": 4530
+        "average": 8.47954,
+        "bayesaverage": 7.32714,
+        "usersrated": 4532
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/367150",
       "note": "",
@@ -852,9 +852,9 @@
         "Take That"
       ],
       "ratings": {
-        "average": 6.06921,
-        "bayesaverage": 5.88511,
-        "usersrated": 42886
+        "average": 6.06915,
+        "bayesaverage": 5.88508,
+        "usersrated": 42898
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/172225",
       "note": ""
@@ -891,9 +891,9 @@
         "Worker Placement"
       ],
       "ratings": {
-        "average": 7.35847,
-        "bayesaverage": 7.08427,
-        "usersrated": 22599
+        "average": 7.35877,
+        "bayesaverage": 7.08434,
+        "usersrated": 22609
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/336986",
       "note": ""
@@ -1095,9 +1095,9 @@
         "Variable Player Powers"
       ],
       "ratings": {
-        "average": 7.45324,
-        "bayesaverage": 6.64408,
-        "usersrated": 3768
+        "average": 7.45261,
+        "bayesaverage": 6.64409,
+        "usersrated": 3771
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/374595",
       "note": "",
@@ -1173,9 +1173,9 @@
         "Variable Set-up"
       ],
       "ratings": {
-        "average": 8.10556,
-        "bayesaverage": 7.78925,
-        "usersrated": 28472
+        "average": 8.10573,
+        "bayesaverage": 7.78929,
+        "usersrated": 28477
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/285774",
       "note": ""
@@ -1207,9 +1207,9 @@
         "Variable Player Powers"
       ],
       "ratings": {
-        "average": 7.5294,
-        "bayesaverage": 7.1632,
-        "usersrated": 13652
+        "average": 7.52907,
+        "bayesaverage": 7.16301,
+        "usersrated": 13655
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/298047",
       "note": "",
@@ -1309,8 +1309,8 @@
         "Trading"
       ],
       "ratings": {
-        "average": 5.05954,
-        "bayesaverage": 5.36906,
+        "average": 5.05807,
+        "bayesaverage": 5.36871,
         "usersrated": 679
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/254617",
@@ -1403,8 +1403,8 @@
         "Variable Player Powers"
       ],
       "ratings": {
-        "average": 7.50397,
-        "bayesaverage": 6.30877,
+        "average": 7.5034,
+        "bayesaverage": 6.30852,
         "usersrated": 1748
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/342894",
@@ -1441,9 +1441,9 @@
         "Push Your Luck"
       ],
       "ratings": {
-        "average": 7.50094,
-        "bayesaverage": 5.70183,
-        "usersrated": 374
+        "average": 7.4996,
+        "bayesaverage": 5.70234,
+        "usersrated": 375
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/343990",
       "note": "",
@@ -1486,9 +1486,9 @@
         "Variable Set-up"
       ],
       "ratings": {
-        "average": 7.70047,
-        "bayesaverage": 7.16464,
-        "usersrated": 9811
+        "average": 7.70068,
+        "bayesaverage": 7.16488,
+        "usersrated": 9813
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/291572",
       "note": ""
@@ -1529,9 +1529,9 @@
         "Variable Set-up"
       ],
       "ratings": {
-        "average": 7.50981,
-        "bayesaverage": 7.39982,
-        "usersrated": 136738
+        "average": 7.50973,
+        "bayesaverage": 7.3998,
+        "usersrated": 136748
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/30549",
       "note": ""
@@ -1563,9 +1563,9 @@
         "Team-Based Game"
       ],
       "ratings": {
-        "average": 6.6291,
-        "bayesaverage": 6.16596,
-        "usersrated": 4112
+        "average": 6.62894,
+        "bayesaverage": 6.1658,
+        "usersrated": 4113
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/312786",
       "note": ""
@@ -1730,9 +1730,9 @@
         "Variable Set-up"
       ],
       "ratings": {
-        "average": 7.74979,
-        "bayesaverage": 7.44499,
-        "usersrated": 23633
+        "average": 7.74964,
+        "bayesaverage": 7.44485,
+        "usersrated": 23634
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/205896",
       "note": ""
@@ -1762,9 +1762,9 @@
         "Worker Placement, Different Worker Types"
       ],
       "ratings": {
-        "average": 7.32973,
+        "average": 7.32938,
         "bayesaverage": 6.55773,
-        "usersrated": 3782
+        "usersrated": 3783
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/360692",
       "note": "",
@@ -1840,8 +1840,8 @@
         "Set Collection"
       ],
       "ratings": {
-        "average": 7.0411,
-        "bayesaverage": 6.90234,
+        "average": 7.04104,
+        "bayesaverage": 6.90229,
         "usersrated": 38246
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/157969",
@@ -1877,9 +1877,9 @@
         "Victory Points as a Resource"
       ],
       "ratings": {
-        "average": 7.98992,
-        "bayesaverage": 6.83851,
-        "usersrated": 2782
+        "average": 7.9896,
+        "bayesaverage": 6.83879,
+        "usersrated": 2784
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/23540",
       "note": "",
@@ -2145,8 +2145,8 @@
         "Voting"
       ],
       "ratings": {
-        "average": 7.61656,
-        "bayesaverage": 6.64047,
+        "average": 7.61625,
+        "bayesaverage": 6.64028,
         "usersrated": 3285
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/295293",
@@ -2209,9 +2209,9 @@
         "Set Collection"
       ],
       "ratings": {
-        "average": 7.52222,
-        "bayesaverage": 7.3925,
-        "usersrated": 86924
+        "average": 7.52223,
+        "bayesaverage": 7.39251,
+        "usersrated": 86930
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/14996",
       "note": ""
@@ -2294,9 +2294,9 @@
         "Variable Set-up"
       ],
       "ratings": {
-        "average": 8.03865,
-        "bayesaverage": 7.0309,
-        "usersrated": 4021
+        "average": 8.03897,
+        "bayesaverage": 7.03195,
+        "usersrated": 4026
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/290484",
       "note": "",
@@ -2327,9 +2327,9 @@
         "Take That"
       ],
       "ratings": {
-        "average": 6.21952,
-        "bayesaverage": 5.94127,
-        "usersrated": 12152
+        "average": 6.21935,
+        "bayesaverage": 5.94116,
+        "usersrated": 12155
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/234190",
       "note": ""
@@ -2362,8 +2362,8 @@
         "Variable Player Powers"
       ],
       "ratings": {
-        "average": 7.15297,
-        "bayesaverage": 6.03378,
+        "average": 7.15221,
+        "bayesaverage": 6.0335,
         "usersrated": 1314
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/245659",
@@ -2398,9 +2398,9 @@
         "Voting"
       ],
       "ratings": {
-        "average": 7.50936,
+        "average": 7.51,
         "bayesaverage": 6.42611,
-        "usersrated": 2341
+        "usersrated": 2342
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/315695",
       "note": "",
@@ -2478,9 +2478,9 @@
         "Variable Set-up"
       ],
       "ratings": {
-        "average": 8.55281,
-        "bayesaverage": 8.19999,
-        "usersrated": 25710
+        "average": 8.55273,
+        "bayesaverage": 8.19997,
+        "usersrated": 25714
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/115746",
       "note": ""
@@ -2619,9 +2619,9 @@
         "Variable Player Powers"
       ],
       "ratings": {
-        "average": 8.02688,
-        "bayesaverage": 7.50704,
-        "usersrated": 11109
+        "average": 8.02679,
+        "bayesaverage": 7.50713,
+        "usersrated": 11116
       },
       "bgg_url": "https://boardgamegeek.com/boardgame/227935",
       "note": "",
